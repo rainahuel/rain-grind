@@ -1,35 +1,9 @@
 {
   "name": "rain-and-grind",
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/static/(.*)",
-      "headers": {
-        "cache-control": "s-maxage=31536000, immutable"
-      },
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/data/(.*)",
-      "headers": {
-        "cache-control": "s-maxage=3600, stale-while-revalidate"
-      },
-      "dest": "/data/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app",
   "rewrites": [
     {
       "source": "/(.*)",
