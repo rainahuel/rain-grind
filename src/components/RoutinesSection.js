@@ -387,19 +387,101 @@ const RoutinesSection = () => {
         color: 'white',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        position: 'relative',
+        overflow: 'hidden'
       }}>
-        <div style={{ textAlign: 'center' }}>
+        <div style={{
+          position: 'absolute',
+          top: '20%',
+          left: '10%',
+          width: '200px',
+          height: '200px',
+          background: 'radial-gradient(circle, rgba(249, 115, 22, 0.1) 0%, transparent 70%)',
+          borderRadius: '50%',
+          filter: 'blur(30px)',
+          animation: 'pulse 3s ease-in-out infinite'
+        }}></div>
+        <div style={{
+          position: 'absolute',
+          bottom: '20%',
+          right: '10%',
+          width: '250px',
+          height: '250px',
+          background: 'radial-gradient(circle, rgba(220, 38, 38, 0.1) 0%, transparent 70%)',
+          borderRadius: '50%',
+          filter: 'blur(30px)',
+          animation: 'pulse 4s ease-in-out infinite reverse'
+        }}></div>
+        
+        <div style={{ 
+          textAlign: 'center', 
+          maxWidth: '400px',
+          padding: '2rem',
+          position: 'relative',
+          zIndex: 2
+        }}>
+          <div style={{ marginBottom: '2rem' }}>
+            <Flame size={60} style={{
+              color: '#f97316',
+              margin: '0 auto',
+              animation: 'bounce 2s ease-in-out infinite',
+              filter: 'drop-shadow(0 0 20px rgba(249, 115, 22, 0.5))'
+            }} />
+          </div>
+          
+          <h3 style={{ 
+            color: '#f97316', 
+            fontSize: '1.5rem', 
+            fontWeight: 'bold',
+            marginBottom: '1.5rem',
+            animation: 'glow 2s ease-in-out infinite'
+          }}>
+            🔥 CARGANDO RUTINAS ÉPICAS
+          </h3>
+          
           <div style={{
-            width: '50px',
-            height: '50px',
-            border: '3px solid #f97316',
-            borderTop: '3px solid transparent',
-            borderRadius: '50%',
-            animation: 'spin 1s linear infinite',
-            margin: '0 auto 1rem'
-          }}></div>
-          <p style={{ color: '#f97316', fontSize: '1.125rem' }}>Cargando rutinas...</p>
+            width: '100%',
+            height: '8px',
+            backgroundColor: '#374151',
+            borderRadius: '10px',
+            overflow: 'hidden',
+            marginBottom: '1rem',
+            boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.3)'
+          }}>
+            <div style={{
+              height: '100%',
+              background: 'linear-gradient(90deg, #f97316, #dc2626, #f59e0b)',
+              borderRadius: '10px',
+              animation: 'loadingBar 2s ease-in-out infinite',
+              boxShadow: '0 0 10px rgba(249, 115, 22, 0.8)'
+            }}></div>
+          </div>
+          
+          <p style={{ 
+            color: '#9ca3af', 
+            fontSize: '0.9rem',
+            animation: 'fadeInOut 1.5s ease-in-out infinite'
+          }}>
+            Preparando rutinas científicas para tu transformación...
+          </p>
+          
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            gap: '4px',
+            marginTop: '1rem'
+          }}>
+            {[0, 1, 2].map(i => (
+              <div key={i} style={{
+                width: '8px',
+                height: '8px',
+                backgroundColor: '#f97316',
+                borderRadius: '50%',
+                animation: `bounce 1.4s ease-in-out infinite ${i * 0.2}s`
+              }}></div>
+            ))}
+          </div>
         </div>
       </section>
     );

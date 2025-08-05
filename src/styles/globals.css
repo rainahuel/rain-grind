@@ -1482,3 +1482,26 @@ input:focus, select:focus {
 .hover\:border-purple-400\/50:hover {
   border-color: rgba(192, 132, 252, 0.5);
 }
+
+/* Loading animations */
+@keyframes loadingBar {
+  0% { width: 0%; }
+  50% { width: 70%; }
+  100% { width: 100%; }
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes glow {
+  0%, 100% { 
+    box-shadow: 0 0 20px rgba(249, 115, 22, 0.5);
+    color: #f97316;
+  }
+  50% { 
+    box-shadow: 0 0 40px rgba(249, 115, 22, 0.8);
+    color: #ea580c;
+  }
+}
