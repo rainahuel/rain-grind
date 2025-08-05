@@ -9,7 +9,8 @@ import {
   Zap,
   Trophy,
   Timer,
-  Activity
+  Activity,
+  Coffee
 } from 'lucide-react';
 
 const Footer = ({ setActiveSection }) => {
@@ -121,6 +122,22 @@ const Footer = ({ setActiveSection }) => {
         </div>
 
         <div className="border-t border-orange-500/20 pt-8">
+          <div className="text-center mb-6">
+            <a 
+              href="https://buymeacoffee.com/rainandgrind" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-3 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-400 hover:to-orange-400 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/50"
+            >
+              <Coffee size={20} />
+              <span>☕ Apoya mi trabajo</span>
+              <Heart size={16} className="text-red-200" />
+            </a>
+            <p className="text-gray-400 text-xs mt-2">
+              Si te ayudaron las rutinas, invítame un café ☕
+            </p>
+          </div>
+          
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             
             <div className="text-gray-400 text-sm flex items-center space-x-2">
