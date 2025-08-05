@@ -27,27 +27,21 @@ const RoutinesSection = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   
-  // Hook para toasts
   const { showToast, ToastContainer } = useToast();
 
-  // Cargar datos desde index.json y archivos individuales
   useEffect(() => {
     const loadRoutinesData = async () => {
       try {
         setLoading(true);
         
-        // Primero intentar cargar desde archivos JSON
         try {
           const indexResponse = await fetch('/data/routines/index.json');
           if (!indexResponse.ok) throw new Error('Index not found');
           
           const indexData = await indexResponse.json();
           
-          // Si llegamos aquí, tenemos los archivos JSON
-          // Organizar rutinas por categorías usando el index
           const organizedData = {};
           
-          // Crear estructura de categorías
           Object.entries(indexData.categories).forEach(([categoryKey, categoryInfo]) => {
             organizedData[categoryKey] = {
               title: `Rutinas ${categoryInfo.name}`,
@@ -57,7 +51,6 @@ const RoutinesSection = () => {
             };
           });
           
-          // Clasificar rutinas en sus categorías
           for (const routine of indexData.routines) {
             try {
               const routineResponse = await fetch(`/data/routines/${routine.file}`);
@@ -89,7 +82,7 @@ const RoutinesSection = () => {
           
         } catch (indexError) {
           console.error('Error cargando archivos JSON:', indexError);
-          throw indexError; // Re-throw para que vaya al catch principal
+          throw indexError;
         }
         
       } catch (err) {
@@ -104,7 +97,6 @@ const RoutinesSection = () => {
     loadRoutinesData();
   }, []);
 
-  // Efecto para manejar el scroll del body cuando el modal está abierto
   useEffect(() => {
     if (showModal) {
       document.body.style.overflow = 'hidden';
@@ -117,14 +109,12 @@ const RoutinesSection = () => {
     };
   }, [showModal]);
 
-  // Función para generar PDF
   const generatePDF = async (routine, event) => {
     try {
       const originalText = event.target.textContent;
       event.target.textContent = 'Generando PDF...';
       event.target.disabled = true;
 
-      // Cargar datos completos de la rutina si no están disponibles
       let fullRoutine = routine;
       if (!routine.workouts && routine.file) {
         try {
@@ -138,17 +128,14 @@ const RoutinesSection = () => {
         }
       }
 
-      // Crear nuevo documento PDF
       const doc = new jsPDF();
       
-      // Configuración de colores
-      const primaryColor = [249, 115, 22]; // Orange
-      const secondaryColor = [17, 24, 39]; // Dark gray
-      const textColor = [55, 65, 81]; // Gray
+      const primaryColor = [249, 115, 22];
+      const secondaryColor = [17, 24, 39];
+      const textColor = [55, 65, 81];
       
       let yPosition = 20;
       
-      // Header - Logo y título
       doc.setFillColor(...primaryColor);
       doc.rect(0, 0, 210, 25, 'F');
       
@@ -163,14 +150,12 @@ const RoutinesSection = () => {
       
       yPosition = 35;
       
-      // Título de la rutina
       doc.setTextColor(...secondaryColor);
       doc.setFontSize(18);
       doc.setFont('helvetica', 'bold');
       doc.text(fullRoutine.name || 'Rutina de Entrenamiento', 20, yPosition);
       yPosition += 10;
       
-      // Información general
       doc.setFontSize(11);
       doc.setFont('helvetica', 'normal');
       doc.setTextColor(...textColor);
@@ -201,7 +186,6 @@ const RoutinesSection = () => {
         }
       });
       
-      // Descripción
       if (fullRoutine.description) {
         doc.setFontSize(12);
         doc.setFont('helvetica', 'bold');
@@ -217,7 +201,6 @@ const RoutinesSection = () => {
         yPosition += descriptionLines.length * 4 + 10;
       }
       
-      // Beneficios clave
       if (fullRoutine.key_benefits && fullRoutine.key_benefits.length > 0) {
         doc.setFontSize(12);
         doc.setFont('helvetica', 'bold');
@@ -240,16 +223,13 @@ const RoutinesSection = () => {
         yPosition += 10;
       }
       
-      // Workouts/Ejercicios
       if (fullRoutine.workouts && fullRoutine.workouts.length > 0) {
         fullRoutine.workouts.forEach((workout, index) => {
-          // Verificar si necesitamos nueva página
           if (yPosition > 250) {
             doc.addPage();
             yPosition = 20;
           }
           
-          // Título del workout
           doc.setFillColor(...primaryColor);
           doc.rect(20, yPosition - 5, 170, 8, 'F');
           
@@ -260,7 +240,6 @@ const RoutinesSection = () => {
           doc.text(workoutNameLines, 22, yPosition);
           yPosition += workoutNameLines.length * 5 + 7;
           
-          // Información adicional del workout
           if (workout.type || workout.target || workout.duration) {
             doc.setFontSize(9);
             doc.setTextColor(...textColor);
@@ -269,13 +248,11 @@ const RoutinesSection = () => {
             if (workout.target) infoText += `Objetivo: ${workout.target} • `;
             if (workout.duration) infoText += `Duración: ${workout.duration}`;
             
-            // Dividir el texto en múltiples líneas si es muy largo
             const infoLines = doc.splitTextToSize(infoText.replace(/ • $/, ''), 168);
             doc.text(infoLines, 22, yPosition);
             yPosition += infoLines.length * 4 + 4;
           }
           
-          // Tabla de ejercicios
           if (workout.exercises && workout.exercises.length > 0) {
             const exerciseData = workout.exercises.map(exercise => [
               exercise.exercise || 'N/A',
@@ -317,7 +294,6 @@ const RoutinesSection = () => {
         });
       }
       
-      // Footer en todas las páginas
       const pageCount = doc.internal.getNumberOfPages();
       for (let i = 1; i <= pageCount; i++) {
         doc.setPage(i);
@@ -329,13 +305,10 @@ const RoutinesSection = () => {
         doc.text(new Date().toLocaleDateString('es-ES'), 160, 290);
       }
       
-      // Descargar el PDF
       doc.save(`${fullRoutine.name.replace(/[^a-z0-9]/gi, '_').toLowerCase()}_rutina.pdf`);
       
-      // Mostrar toast de éxito
       showToast(`PDF de "${fullRoutine.name}" descargado exitosamente! 🎉`, 'success', 3500);
       
-      // Restaurar botón
       event.target.textContent = originalText;
       event.target.disabled = false;
 
@@ -381,7 +354,6 @@ const RoutinesSection = () => {
   const handleOpenModal = async (routine) => {
     console.log('Abriendo modal para:', routine.name);
     
-    // Si la rutina no tiene workouts cargados, intentar cargarlos
     if (!routine.workouts && routine.file) {
       try {
         const response = await fetch(`/data/routines/${routine.file}`);
@@ -407,7 +379,6 @@ const RoutinesSection = () => {
     setShowModal(false);
   };
 
-  // Mostrar loading
   if (loading) {
     return (
       <section style={{
@@ -434,7 +405,6 @@ const RoutinesSection = () => {
     );
   }
 
-  // Mostrar error
   if (error && !routinesData) {
     return (
       <section style={{
@@ -479,7 +449,6 @@ const RoutinesSection = () => {
         position: 'relative',
         overflow: 'hidden'
       }}>
-        {/* Animated background elements */}
         <div style={{
           position: 'absolute',
           top: '10%',
@@ -511,7 +480,6 @@ const RoutinesSection = () => {
           zIndex: 1
         }}>
           
-          {/* Header */}
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
             <div style={{ marginBottom: '1rem' }}>
               <Flame size={60} style={{
@@ -597,9 +565,7 @@ const RoutinesSection = () => {
             </div>
           </div>
 
-          {/* Reorganizar rutinas por nivel */}
           {(() => {
-            // Agrupar todas las rutinas por nivel
             const routinesByLevel = {
               principiante: [],
               intermedio: [],
@@ -643,7 +609,6 @@ const RoutinesSection = () => {
                     display: 'flex',
                     flexDirection: 'column'
                   }}>
-                    {/* Header de nivel */}
                     <div style={{
                       marginBottom: '1.5rem',
                       textAlign: 'center',
@@ -691,7 +656,6 @@ const RoutinesSection = () => {
                       </div>
                     </div>
 
-                    {/* Rutinas del nivel */}
                     <div style={{
                       display: 'flex',
                       flexDirection: 'column',
@@ -728,7 +692,6 @@ const RoutinesSection = () => {
                               e.currentTarget.style.boxShadow = 'none';
                             }}
                           >
-                            {/* Animated corner accent */}
                             <div style={{
                               position: 'absolute',
                               top: '0',
@@ -738,7 +701,6 @@ const RoutinesSection = () => {
                               background: `linear-gradient(135deg, ${colorStyle.hover} 0%, transparent 50%)`,
                               opacity: '0.3'
                             }}></div>
-                        {/* Header de la tarjeta */}
                         <div style={{
                           display: 'flex',
                           justifyContent: 'space-between',
@@ -773,7 +735,6 @@ const RoutinesSection = () => {
                           </span>
                         </div>
 
-                        {/* Descripción */}
                         <p style={{
                           color: '#e5e7eb',
                           marginBottom: '0.75rem',
@@ -784,7 +745,6 @@ const RoutinesSection = () => {
                           zIndex: 1
                         }}>{routine.description}</p>
 
-                        {/* Información en grid compacta */}
                         <div style={{
                           display: 'grid',
                           gridTemplateColumns: 'repeat(2, 1fr)',
@@ -852,7 +812,6 @@ const RoutinesSection = () => {
                           </div>
                         </div>
 
-                        {/* Beneficios clave - más compacto */}
                         <div style={{ 
                           marginBottom: '1rem',
                           position: 'relative',
@@ -883,7 +842,6 @@ const RoutinesSection = () => {
                           </div>
                         </div>
 
-                        {/* Botones de acción */}
                         <div style={{
                           display: 'flex',
                           gap: '0.5rem',
@@ -967,7 +925,6 @@ const RoutinesSection = () => {
         </div>
       </section>
 
-      {/* Modal (mantener igual que antes) */}
       {showModal && selectedRoutine ? (
         <div 
           style={{
@@ -1003,7 +960,6 @@ const RoutinesSection = () => {
             onClick={(e) => e.stopPropagation()}
           >
             
-            {/* Header del modal */}
             <div style={{
               backgroundColor: '#111827',
               borderBottom: '1px solid #374151',
@@ -1046,7 +1002,6 @@ const RoutinesSection = () => {
               </button>
             </div>
 
-            {/* Contenido del modal - Con scroll */}
             <div style={{
               flex: '1',
               overflowY: 'auto',
@@ -1054,7 +1009,6 @@ const RoutinesSection = () => {
             }}>
               <div style={{ padding: '1.5rem' }}>
                 
-                {/* Info general */}
                 <div style={{
                   display: 'grid',
                   gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
@@ -1119,7 +1073,6 @@ const RoutinesSection = () => {
                   </div>
                 </div>
 
-                {/* Workouts */}
                 {selectedRoutine.workouts && selectedRoutine.workouts.length > 0 ? (
                   selectedRoutine.workouts.map((workout, workoutIdx) => (
                     <div key={workoutIdx} style={{ marginBottom: '2rem' }}>
@@ -1224,7 +1177,6 @@ const RoutinesSection = () => {
               </div>
             </div>
 
-            {/* Footer con botones */}
             <div style={{
               backgroundColor: '#111827',
               borderTop: '1px solid #374151',
@@ -1296,7 +1248,6 @@ const RoutinesSection = () => {
         </div>
       ) : null}
 
-      {/* CSS para animación de loading */}
       <style>{`
         @keyframes spin {
           0% { transform: rotate(0deg); }
@@ -1304,7 +1255,6 @@ const RoutinesSection = () => {
         }
       `}</style>
 
-      {/* Toast Container */}
       <ToastContainer />
     </>
   );

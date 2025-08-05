@@ -17,7 +17,6 @@ const Footer = ({ setActiveSection }) => {
 
   return (
     <footer className="relative bg-gradient-to-b from-gray-900 to-black overflow-hidden">
-      {/* Animated background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute -top-10 -right-10 w-40 h-40 bg-orange-500 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-red-600 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
@@ -25,7 +24,6 @@ const Footer = ({ setActiveSection }) => {
       
       <div className="relative max-w-7xl mx-auto px-4 py-12">
         
-        {/* Motivational Quote Banner */}
         <div className="text-center mb-12 py-6 border-y border-orange-500/20">
           <div className="flex items-center justify-center space-x-2 mb-2">
             <Zap className="text-orange-400" size={24} />
@@ -37,10 +35,8 @@ const Footer = ({ setActiveSection }) => {
           <p className="text-gray-300 font-medium">La transformación comienza HOY</p>
         </div>
         
-        {/* Main Content Grid */}
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           
-          {/* Brand Section */}
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <div className="relative">
@@ -69,7 +65,6 @@ const Footer = ({ setActiveSection }) => {
             </div>
           </div>
 
-          {/* Quick Links with Icons */}
           <div>
             <h4 className="text-orange-400 font-black mb-6 tracking-wide flex items-center space-x-2">
               <Target size={20} />
@@ -99,7 +94,6 @@ const Footer = ({ setActiveSection }) => {
             </ul>
           </div>
 
-          {/* Stats/Motivation Section */}
           <div>
             <h4 className="text-orange-400 font-black mb-6 tracking-wide flex items-center space-x-2">
               <Timer size={20} />
@@ -126,11 +120,9 @@ const Footer = ({ setActiveSection }) => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className="border-t border-orange-500/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             
-            {/* Copyright with emoji */}
             <div className="text-gray-400 text-sm flex items-center space-x-2">
               <p>© {currentYear} Rain & Grind</p>
               <span className="text-orange-400">•</span>
@@ -141,7 +133,6 @@ const Footer = ({ setActiveSection }) => {
               </p>
             </div>
 
-            {/* Disclaimer with icon */}
             <div className="flex items-center space-x-2 text-gray-500 text-xs">
               <ExternalLink size={14} />
               <p>Consulta un profesional • Solo fines educativos</p>

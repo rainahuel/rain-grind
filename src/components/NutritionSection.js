@@ -15,7 +15,6 @@ const NutritionSection = () => {
   const [results, setResults] = useState(null);
   const [copySuccess, setCopySuccess] = useState(false);
   
-  // Hook para toasts
   const { showToast, ToastContainer } = useToast();
 
   const handleInputChange = (e) => {
@@ -26,7 +25,6 @@ const NutritionSection = () => {
     }));
   };
 
-  // Función para calcular TMB (Tasa Metabólica Basal) usando Mifflin-St Jeor
   const calculateBMR = (weight, height, age, gender) => {
     if (gender === 'male') {
       return (10 * weight) + (6.25 * height) - (5 * age) + 5;
@@ -35,51 +33,48 @@ const NutritionSection = () => {
     }
   };
 
-  // Función para calcular TDEE (Total Daily Energy Expenditure)
   const calculateTDEE = (bmr, activityLevel) => {
     return Math.round(bmr * parseFloat(activityLevel));
   };
 
-  // Función para calcular calorías según objetivo
   const calculateCaloriesForGoal = (tdee, goal) => {
     switch (goal) {
       case 'lose':
-        return Math.round(tdee * 0.85); // Déficit del 15%
+        return Math.round(tdee * 0.85);
       case 'maintain':
         return tdee;
       case 'gain':
-        return Math.round(tdee * 1.15); // Surplus del 15%
+        return Math.round(tdee * 1.15);
       case 'recomp':
-        return Math.round(tdee * 0.95); // Ligero déficit del 5%
+        return Math.round(tdee * 0.95);
       default:
         return tdee;
     }
   };
 
-  // Función para calcular distribución de macros
   const calculateMacros = (calories, goal) => {
     let proteinPercentage, carbPercentage, fatPercentage;
 
     switch (goal) {
       case 'lose':
-        proteinPercentage = 0.35; // 35% proteína para preservar músculo
-        fatPercentage = 0.25;     // 25% grasa
-        carbPercentage = 0.40;    // 40% carbohidratos
+        proteinPercentage = 0.35;
+        fatPercentage = 0.25;
+        carbPercentage = 0.40;
         break;
       case 'gain':
-        proteinPercentage = 0.25; // 25% proteína
-        fatPercentage = 0.25;     // 25% grasa
-        carbPercentage = 0.50;    // 50% carbohidratos
+        proteinPercentage = 0.25;
+        fatPercentage = 0.25;
+        carbPercentage = 0.50;
         break;
       case 'recomp':
-        proteinPercentage = 0.30; // 30% proteína
-        fatPercentage = 0.25;     // 25% grasa
-        carbPercentage = 0.45;    // 45% carbohidratos
+        proteinPercentage = 0.30;
+        fatPercentage = 0.25;
+        carbPercentage = 0.45;
         break;
-      default: // maintain
-        proteinPercentage = 0.25; // 25% proteína
-        fatPercentage = 0.30;     // 30% grasa
-        carbPercentage = 0.45;    // 45% carbohidratos
+      default:
+        proteinPercentage = 0.25;
+        fatPercentage = 0.30;
+        carbPercentage = 0.45;
     }
 
     return {
@@ -104,13 +99,11 @@ const NutritionSection = () => {
   const calculateCalories = () => {
     const { age, gender, weight, height, activityLevel, goal } = formData;
 
-    // Validar que todos los campos estén completos
     if (!age || !gender || !weight || !height || !activityLevel || !goal) {
       alert('Por favor, completa todos los campos');
       return;
     }
 
-    // Calcular TMB
     const bmr = calculateBMR(
       parseFloat(weight),
       parseFloat(height),
@@ -118,16 +111,12 @@ const NutritionSection = () => {
       gender
     );
 
-    // Calcular TDEE
     const tdee = calculateTDEE(bmr, activityLevel);
 
-    // Calcular calorías según objetivo
     const targetCalories = calculateCaloriesForGoal(tdee, goal);
 
-    // Calcular macros
     const macros = calculateMacros(targetCalories, goal);
 
-    // Guardar resultados
     setResults({
       bmr: Math.round(bmr),
       tdee,
@@ -137,7 +126,6 @@ const NutritionSection = () => {
     });
   };
 
-  // Función para obtener el nombre del objetivo
   const getGoalName = (goal) => {
     const goals = {
       'lose': 'Perder grasa',
@@ -148,7 +136,6 @@ const NutritionSection = () => {
     return goals[goal] || goal;
   };
 
-  // Función para copiar resultados al portapapeles
   const copyResults = async () => {
     if (!results) return;
 
@@ -178,7 +165,6 @@ Calculado en: rainandgrind.com
       showToast('¡Resultados copiados al portapapeles! 📋', 'success', 2500);
       setTimeout(() => setCopySuccess(false), 2000);
     } catch (err) {
-      // Fallback para navegadores que no soporten clipboard API
       const textArea = document.createElement('textarea');
       textArea.value = resultsText;
       document.body.appendChild(textArea);
@@ -192,7 +178,6 @@ Calculado en: rainandgrind.com
     }
   };
 
-  // Función para generar PDF
   const generatePDF = () => {
     if (!results) {
       showToast('Primero debes calcular tus macros para generar el PDF', 'warning', 3000);
@@ -200,10 +185,8 @@ Calculado en: rainandgrind.com
     }
     
     try {
-
     const goalName = getGoalName(results.goal);
     
-    // Crear contenido HTML para el PDF
     const pdfContent = `
       <html>
         <head>
@@ -344,13 +327,11 @@ Calculado en: rainandgrind.com
       </html>
     `;
 
-    // Crear y abrir ventana para imprimir
     const printWindow = window.open('', '', 'height=600,width=800');
     printWindow.document.write(pdfContent);
     printWindow.document.close();
     printWindow.focus();
     
-    // Dar tiempo para que cargue y luego abrir diálogo de impresión
     setTimeout(() => {
       printWindow.print();
       showToast('PDF nutricional generado exitosamente! 🎉', 'success', 3500);
@@ -366,7 +347,6 @@ Calculado en: rainandgrind.com
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
       <div className="max-w-6xl mx-auto px-4 py-8">
         
-        {/* Header Section */}
         <div className="text-center mb-12">
           <div className="flex justify-center mb-4">
             <div className="bg-gradient-to-r from-orange-500 to-red-600 p-4 rounded-full">
@@ -382,10 +362,8 @@ Calculado en: rainandgrind.com
           </p>
         </div>
 
-        {/* Main Content Grid */}
         <div className="grid lg:grid-cols-2 gap-8">
           
-          {/* Calculator Form */}
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-orange-500/20">
             <h2 className="text-2xl font-bold mb-6 flex items-center">
               <Calculator className="mr-3 text-orange-500" size={24} />
@@ -393,7 +371,6 @@ Calculado en: rainandgrind.com
             </h2>
 
             <div className="space-y-6">
-              {/* Age & Gender Row */}
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-300 mb-2">
@@ -425,7 +402,6 @@ Calculado en: rainandgrind.com
                 </div>
               </div>
 
-              {/* Weight & Height Row */}
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-300 mb-2">
@@ -455,7 +431,6 @@ Calculado en: rainandgrind.com
                 </div>
               </div>
 
-              {/* Activity Level */}
               <div>
                 <label className="block text-sm font-medium text-gray-300 mb-2">
                   Nivel de Actividad
@@ -475,7 +450,6 @@ Calculado en: rainandgrind.com
                 </select>
               </div>
 
-              {/* Goal */}
               <div>
                 <label className="block text-sm font-medium text-gray-300 mb-2">
                   Objetivo Principal
@@ -494,7 +468,6 @@ Calculado en: rainandgrind.com
                 </select>
               </div>
 
-              {/* Calculate Button */}
               <button
                 onClick={calculateCalories}
                 className="w-full bg-gradient-to-r from-orange-500 to-red-600 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:from-orange-600 hover:to-red-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
@@ -504,7 +477,6 @@ Calculado en: rainandgrind.com
             </div>
           </div>
 
-          {/* Results Panel */}
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-orange-500/20">
             <h2 className="text-2xl font-bold mb-6 flex items-center">
               <Target className="mr-3 text-orange-500" size={24} />
@@ -522,7 +494,6 @@ Calculado en: rainandgrind.com
               </div>
             ) : (
               <div className="space-y-6">
-                {/* Resumen de Calorías */}
                 <div className="bg-gradient-to-r from-orange-500/20 to-red-600/20 rounded-xl p-6 border border-orange-500/30">
                   <h3 className="text-xl font-bold mb-4 text-center">
                     📊 Resumen Calórico
@@ -546,13 +517,11 @@ Calculado en: rainandgrind.com
                   </div>
                 </div>
 
-                {/* Distribución de Macros */}
                 <div className="space-y-4">
                   <h3 className="text-xl font-bold text-center mb-4">
                     🥗 Distribución de Macronutrientes
                   </h3>
                   
-                  {/* Proteína */}
                   <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg p-4">
                     <div className="flex justify-between items-center mb-2">
                       <span className="font-semibold text-blue-400">Proteína</span>
@@ -570,7 +539,6 @@ Calculado en: rainandgrind.com
                     </div>
                   </div>
 
-                  {/* Carbohidratos */}
                   <div className="bg-green-500/10 border border-green-500/20 rounded-lg p-4">
                     <div className="flex justify-between items-center mb-2">
                       <span className="font-semibold text-green-400">Carbohidratos</span>
@@ -588,7 +556,6 @@ Calculado en: rainandgrind.com
                     </div>
                   </div>
 
-                  {/* Grasas */}
                   <div className="bg-yellow-500/10 border border-yellow-500/20 rounded-lg p-4">
                     <div className="flex justify-between items-center mb-2">
                       <span className="font-semibold text-yellow-400">Grasas</span>
@@ -607,7 +574,6 @@ Calculado en: rainandgrind.com
                   </div>
                 </div>
 
-                {/* Botones de Acción */}
                 <div className="grid grid-cols-2 gap-4 mt-6">
                   <button
                     onClick={copyResults}
@@ -635,7 +601,6 @@ Calculado en: rainandgrind.com
                   </button>
                 </div>
 
-                {/* Botón para recalcular */}
                 <button
                   onClick={() => setResults(null)}
                   className="w-full bg-gray-700 text-white py-3 px-6 rounded-lg font-medium hover:bg-gray-600 transition-all duration-200 mt-4"
@@ -645,7 +610,6 @@ Calculado en: rainandgrind.com
               </div>
             )}
 
-            {/* Disclaimer */}
             <div className="mt-8 p-4 bg-yellow-500/10 border border-yellow-500/20 rounded-lg">
               <p className="text-sm text-yellow-300">
                 <strong>Disclaimer:</strong> Esta calculadora proporciona estimaciones basadas en fórmulas estándar. 
@@ -656,7 +620,6 @@ Calculado en: rainandgrind.com
         </div>
       </div>
 
-      {/* Toast Container */}
       <ToastContainer />
     </div>
   );

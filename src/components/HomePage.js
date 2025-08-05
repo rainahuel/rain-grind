@@ -17,15 +17,12 @@ import {
 const HomePage = ({ setActiveSection }) => {
   return (
     <section className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white relative overflow-hidden">
-      {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 right-10 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 left-10 w-96 h-96 bg-red-600/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
       </div>
-      {/* Hero Section */}
       <div className="relative max-w-7xl mx-auto px-4 py-20">
         <div className="text-center">
-          {/* Main Title with more aggressive styling */}
           <div className="mb-8 animate-fadeInUp">
             <div className="flex items-center justify-center space-x-4 mb-4">
               <Zap className="text-orange-400 animate-bounce" size={40} />
@@ -48,7 +45,6 @@ const HomePage = ({ setActiveSection }) => {
             <span className="text-yellow-400 font-black"> RESULTADOS</span>.
           </p>
           
-          {/* CTA Buttons - Triple Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center mb-16 max-w-5xl mx-auto">
             <button 
               onClick={() => setActiveSection('routines')}
@@ -88,7 +84,6 @@ const HomePage = ({ setActiveSection }) => {
             </button>
           </div>
 
-          {/* Stats Section */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16 max-w-4xl mx-auto">
             <div className="bg-gradient-to-br from-orange-500/20 to-orange-500/10 p-6 rounded-xl border border-orange-500/30 transform hover:scale-105 transition-all">
               <Trophy className="text-orange-400 mx-auto mb-2" size={32} />
@@ -112,7 +107,6 @@ const HomePage = ({ setActiveSection }) => {
             </div>
           </div>
 
-          {/* Motivational banner */}
           <div className="bg-gradient-to-r from-black/60 to-black/40 border-l-4 border-orange-500 p-6 mb-12 max-w-3xl mx-auto rounded-lg transform hover:scale-105 transition-all">
             <p className="text-orange-400 font-black text-xl mb-2">
               "El gimnasio no miente. Las pesas no tienen favoritos."
@@ -126,7 +120,6 @@ const HomePage = ({ setActiveSection }) => {
 
 
 
-        {/* Warning/Disclaimer with gym attitude */}
         <div className="mt-12 bg-gradient-to-r from-red-900/30 to-red-800/20 border-2 border-red-500/50 rounded-xl p-8 text-center max-w-4xl mx-auto transform hover:scale-105 transition-all animate-glow">
           <div className="flex items-center justify-center space-x-2 mb-3">
             <Flame className="text-red-500 animate-pulse" size={24} />

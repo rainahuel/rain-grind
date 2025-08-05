@@ -14,7 +14,6 @@ import {
 const RecipesSection = () => {
   return (
     <section className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white relative overflow-hidden">
-      {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 right-10 w-96 h-96 bg-green-500/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 left-10 w-96 h-96 bg-orange-600/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
@@ -22,7 +21,6 @@ const RecipesSection = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 py-20">
         
-        {/* Header */}
         <div className="text-center mb-16">
           <div className="flex items-center justify-center space-x-4 mb-4">
             <ChefHat className="text-green-400 animate-bounce" size={60} />
@@ -36,7 +34,6 @@ const RecipesSection = () => {
             Recetas simples, nutritivas y <span className="text-orange-400 font-black">DELICIOSAS</span> 🔥
           </p>
 
-          {/* Stats */}
           <div className="flex justify-center gap-4 flex-wrap">
             <div className="flex items-center gap-2 px-4 py-2 bg-green-500/20 rounded-full border-2 border-green-500/30">
               <Target size={20} className="text-green-400" />
@@ -49,11 +46,9 @@ const RecipesSection = () => {
           </div>
         </div>
 
-        {/* Coming Soon Section */}
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gradient-to-br from-gray-800/90 to-gray-900/90 rounded-2xl p-12 border-2 border-green-500/30 relative overflow-hidden">
             
-            {/* Background pattern */}
             <div className="absolute inset-0 opacity-5">
               <div className="grid grid-cols-8 gap-4 h-full">
                 {[...Array(32)].map((_, i) => (
@@ -71,7 +66,6 @@ const RecipesSection = () => {
                 <p className="text-gray-300 text-lg font-semibold">Estamos cocinando algo increíble para ti</p>
               </div>
 
-              {/* Preview Cards */}
               <div className="grid md:grid-cols-3 gap-4 mb-8">
                 <div className="bg-gradient-to-br from-green-500/20 to-green-500/10 p-4 rounded-lg border border-green-500/30">
                   <Utensils className="text-green-400 mb-2" size={24} />
@@ -90,7 +84,6 @@ const RecipesSection = () => {
                 </div>
               </div>
 
-              {/* CTA */}
               <div className="bg-gradient-to-r from-gray-700/50 to-gray-800/50 rounded-lg p-6 border border-green-500/20">
                 <h4 className="text-xl font-bold text-white mb-2">💡 ¿Tienes alguna receta fitness favorita?</h4>
                 <p className="text-gray-300 mb-4">
@@ -106,7 +99,6 @@ const RecipesSection = () => {
           </div>
         </div>
 
-        {/* Motivational Quote */}
         <div className="mt-12 text-center">
           <div className="bg-gradient-to-r from-black/60 to-black/40 border-l-4 border-green-500 p-6 max-w-3xl mx-auto rounded-lg">
             <p className="text-green-400 font-black text-xl mb-2">

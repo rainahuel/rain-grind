@@ -9,7 +9,6 @@ import {
   Shield
 } from 'lucide-react';
 
-// Import del JSON (en producción, esto vendría de una API o archivo estático)
 import sourcesData from '../data/sources.json';
 
 const SourcesSection = () => {
@@ -17,7 +16,6 @@ const SourcesSection = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simular carga de datos (en un proyecto real sería fetch o import directo)
     const loadSources = () => {
       try {
         setSources(sourcesData);
@@ -78,7 +76,6 @@ const SourcesSection = () => {
     <section className="min-h-screen bg-gradient-to-br from-gray-800 via-gray-900 to-black text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Header con actitud gym rat */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-wide">
             <span className="bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-transparent">
@@ -92,7 +89,6 @@ const SourcesSection = () => {
           </p>
         </div>
 
-        {/* Sources Grid */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           {sourceCategories.map((sourceGroup, index) => (
             <div key={index} className="bg-black/50 rounded border-2 border-gray-700 hover:border-orange-500 transition-all duration-200 transform hover:scale-105 p-6">

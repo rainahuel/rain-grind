@@ -22,6 +22,15 @@
           "journal": "PMC - Medicina Preventiva",
           "year": "2021", 
           "key_findings": "El déficit calórico es lo más importante. Dietas altas en proteína mejoran la saciedad. El timing de comidas también influye."
+        },
+        {
+          "title": "Frecuencia de Entrenamiento Óptima: ¿Cuánto Descanso Necesitan tus Músculos?",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5684266/",
+          "description": "Meta-análisis que examina la frecuencia óptima de entrenamiento y tiempo de recuperación muscular. Analiza 22 estudios sobre síntesis proteica y supercompensación.",
+          "type": "Meta-Análisis Científico",
+          "journal": "Sports Medicine - PMC",
+          "year": "2023",
+          "key_findings": "Entrenar cada músculo 2x por semana es superior a 1x. La síntesis proteica dura 48-72 horas. Principiantes pueden entrenar con mayor frecuencia que avanzados."
         }
       ]
     },

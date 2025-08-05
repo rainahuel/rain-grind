@@ -23,7 +23,6 @@ const Header = ({ activeSection, setActiveSection, mobileMenuOpen, setMobileMenu
     <header className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 backdrop-blur-sm border-b-2 border-orange-500/30 sticky top-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="relative">
               <div className="bg-gradient-to-r from-orange-500 to-red-600 p-2 rounded-lg transform hover:scale-110 transition-transform animate-glow">
@@ -37,7 +36,6 @@ const Header = ({ activeSection, setActiveSection, mobileMenuOpen, setMobileMenu
             </div>
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-2">
             {navItems.map((item) => (
               <button
@@ -55,7 +53,6 @@ const Header = ({ activeSection, setActiveSection, mobileMenuOpen, setMobileMenu
             ))}
           </nav>
 
-          {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden p-2 rounded-lg text-orange-400 hover:text-white hover:bg-orange-500/20 transition-all"
@@ -64,7 +61,6 @@ const Header = ({ activeSection, setActiveSection, mobileMenuOpen, setMobileMenu
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <div className="md:hidden bg-gray-800/95 backdrop-blur-sm rounded-lg mt-2 mb-4 p-4 border border-orange-500/20 animate-slideInRight">
             {navItems.map((item) => (

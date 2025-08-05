@@ -6,12 +6,10 @@ const Toast = ({ message, type = 'success', duration = 4000, onClose }) => {
   const [isExiting, setIsExiting] = useState(false);
 
   useEffect(() => {
-    // Mostrar toast con animación
     const showTimer = setTimeout(() => {
       setIsVisible(true);
     }, 100);
 
-    // Auto-hide después de la duración
     const hideTimer = setTimeout(() => {
       handleClose();
     }, duration);
@@ -128,7 +126,6 @@ const Toast = ({ message, type = 'success', duration = 4000, onClose }) => {
   );
 };
 
-// Hook para manejar toasts
 export const useToast = () => {
   const [toasts, setToasts] = useState([]);
 
@@ -138,7 +135,6 @@ export const useToast = () => {
     
     setToasts(prev => [...prev, newToast]);
     
-    // Auto-remove después de la duración + 500ms para la animación
     setTimeout(() => {
       setToasts(prev => prev.filter(toast => toast.id !== id));
     }, duration + 500);
