@@ -1,0 +1,344 @@
+{
+  "id": "weight-loss-beginner",
+  "name": "Transformación Total - Pérdida de Grasa Principiante",
+  "level": "Principiante",
+  "duration": "12-16 semanas",
+  "frequency": "4 días/semana",
+  "time_per_session": "45-60 minutos",
+  "goal": "Pérdida de grasa efectiva mientras construyes hábitos saludables y masa muscular básica",
+  "description": "Programa científico para principiantes que buscan perder grasa de forma sostenible. Combina entrenamiento de fuerza con cardio estratégico para maximizar la quema calórica y preservar músculo. Basado en investigación actual sobre pérdida de grasa.",
+  "key_benefits": [
+    "Pérdida de grasa sostenible (0.5-1kg/semana)",
+    "Preservación y construcción de músculo",
+    "Mejora capacidad cardiovascular",
+    "Aumento del metabolismo basal",
+    "Desarrollo de hábitos duraderos",
+    "Reducción de riesgo de enfermedades"
+  ],
+  "program_structure": {
+    "phases": [
+      {
+        "name": "Fase 1: Adaptación Metabólica",
+        "weeks": "1-4",
+        "focus": "Crear hábito, técnica básica, acondicionamiento",
+        "intensity": "Moderada (RPE 6-7/10)",
+        "cardio": "20-25 min LISS post-pesas"
+      },
+      {
+        "name": "Fase 2: Intensificación",
+        "weeks": "5-8",
+        "focus": "Aumentar intensidad, introducir HIIT",
+        "intensity": "Moderada-Alta (RPE 7-8/10)",
+        "cardio": "25-30 min mixto LISS/HIIT"
+      },
+      {
+        "name": "Fase 3: Transformación",
+        "weeks": "9-12",
+        "focus": "Máxima quema grasa, técnicas avanzadas",
+        "intensity": "Alta (RPE 8-9/10)",
+        "cardio": "30-35 min variado + finishers"
+      }
+    ],
+    "training_schedule": "Lunes (Full Body A), Martes (Cardio+Core), Jueves (Full Body B), Sábado (Circuito Metabólico)"
+  },
+  "workouts": [
+    {
+      "name": "Día 1 - Full Body A: Fuerza y Quema",
+      "type": "Cuerpo Completo - Énfasis Superior",
+      "target": "Fuerza básica + alto gasto calórico",
+      "duration": "45-60 min",
+      "exercises": [
+        {
+          "exercise": "Sentadilla con Mancuernas",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "60 seg",
+          "notes": "Movimiento rey quema-calorías. Mancuernas a los lados o goblet. Profundidad completa"
+        },
+        {
+          "exercise": "Press con Mancuernas en Banco",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "60 seg",
+          "notes": "Construye músculo que quema grasa 24/7. Rango completo, control"
+        },
+        {
+          "exercise": "Remo con Mancuernas Ambas Manos",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "60 seg",
+          "notes": "Espalda fuerte = mejor postura = más calorías quemadas. Inclinar torso 45°"
+        },
+        {
+          "exercise": "Peso Muerto Rumano con Mancuernas",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "60 seg",
+          "notes": "Trabaja toda la cadena posterior. Rodillas suaves, sentir isquios"
+        },
+        {
+          "exercise": "Superserie: Flexiones + Plancha",
+          "sets": "3",
+          "reps": "10-15 + 30-45 seg",
+          "rest": "60 seg",
+          "notes": "Quemar sin descanso. Flexiones en rodillas si necesario"
+        },
+        {
+          "exercise": "CARDIO: Caminata Inclinada",
+          "sets": "1",
+          "reps": "20-25 min",
+          "rest": "N/A",
+          "notes": "5-10% inclinación, ritmo que permita hablar. Quema grasa óptima"
+        }
+      ]
+    },
+    {
+      "name": "Día 2 - Cardio Intervals + Core Power",
+      "type": "Acondicionamiento Metabólico",
+      "target": "Quema grasa máxima + core fuerte",
+      "duration": "45-50 min",
+      "exercises": [
+        {
+          "exercise": "Calentamiento: Bicicleta o Elíptica",
+          "sets": "1",
+          "reps": "5 min",
+          "rest": "N/A",
+          "notes": "Ritmo fácil, preparar el cuerpo. RPE 5/10"
+        },
+        {
+          "exercise": "HIIT en Cinta/Bici/Remo",
+          "sets": "8-10",
+          "reps": "30s intenso / 90s recuperación",
+          "rest": "N/A",
+          "notes": "Intenso = RPE 8-9/10, Recuperación = RPE 5/10. Quema grasa post-ejercicio"
+        },
+        {
+          "exercise": "Mountain Climbers",
+          "sets": "3",
+          "reps": "20 por lado",
+          "rest": "45 seg",
+          "notes": "Cardio + core. Mantener cadera baja, ritmo constante"
+        },
+        {
+          "exercise": "Burpees Modificados",
+          "sets": "3",
+          "reps": "10-15",
+          "rest": "60 seg",
+          "notes": "Sin salto si eres principiante. Movimiento completo = más calorías"
+        },
+        {
+          "exercise": "Russian Twists con Peso",
+          "sets": "3",
+          "reps": "20 por lado",
+          "rest": "45 seg",
+          "notes": "Core rotacional. Usar mancuerna ligera o balón medicinal"
+        },
+        {
+          "exercise": "Bicicleta Abdominal",
+          "sets": "3",
+          "reps": "20 por lado",
+          "rest": "45 seg",
+          "notes": "Codo a rodilla opuesta. Lento y controlado, no rapidez"
+        },
+        {
+          "exercise": "Enfriamiento: Caminata",
+          "sets": "1",
+          "reps": "5-10 min",
+          "rest": "N/A",
+          "notes": "Bajar pulsaciones gradualmente. Estirar después"
+        }
+      ]
+    },
+    {
+      "name": "Día 3 - Full Body B: Potencia y Definición",
+      "type": "Cuerpo Completo - Énfasis Inferior",
+      "target": "Músculos grandes + metabolismo acelerado",
+      "duration": "45-60 min",
+      "exercises": [
+        {
+          "exercise": "Zancadas Caminando",
+          "sets": "3",
+          "reps": "12 por pierna",
+          "rest": "60 seg",
+          "notes": "Quema-grasa brutal. Mancuernas opcionales, paso largo"
+        },
+        {
+          "exercise": "Press Militar con Mancuernas",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "60 seg",
+          "notes": "Hombros fuertes = mejor metabolismo. De pie para más core"
+        },
+        {
+          "exercise": "Dominadas Asistidas o Jalones",
+          "sets": "3",
+          "reps": "10-12",
+          "rest": "60 seg",
+          "notes": "Espalda en V = aspecto más delgado. Agarre medio"
+        },
+        {
+          "exercise": "Step-Ups con Mancuernas",
+          "sets": "3",
+          "reps": "12 por pierna",
+          "rest": "45 seg",
+          "notes": "Cardio + fuerza. Banco altura rodilla, empujar con talón"
+        },
+        {
+          "exercise": "Superserie: Curl Bíceps + Extensión Tríceps",
+          "sets": "3",
+          "reps": "12-15 cada uno",
+          "rest": "60 seg",
+          "notes": "Brazos definidos. Sin descanso entre ejercicios"
+        },
+        {
+          "exercise": "Finisher: Jumping Jacks",
+          "sets": "3",
+          "reps": "30-45 seg",
+          "rest": "30 seg",
+          "notes": "Elevar pulsaciones final. Modificar sin salto si necesario"
+        },
+        {
+          "exercise": "CARDIO: Elíptica o Bicicleta",
+          "sets": "1",
+          "reps": "20-25 min",
+          "rest": "N/A",
+          "notes": "Ritmo moderado constante. Menor impacto que correr"
+        }
+      ]
+    },
+    {
+      "name": "Día 4 - Circuito Metabólico Total",
+      "type": "Circuit Training",
+      "target": "Máxima quema calórica + resistencia",
+      "duration": "45-55 min",
+      "exercises": [
+        {
+          "exercise": "CIRCUITO 1 (Repetir 3 veces)",
+          "sets": "3",
+          "reps": "45s trabajo / 15s transición",
+          "rest": "90 seg entre circuitos",
+          "notes": "1. Sentadillas / 2. Flexiones / 3. Jumping Jacks / 4. Plancha"
+        },
+        {
+          "exercise": "CIRCUITO 2 (Repetir 3 veces)",
+          "sets": "3",
+          "reps": "45s trabajo / 15s transición",
+          "rest": "90 seg entre circuitos",
+          "notes": "1. Zancadas alternas / 2. Remo con bandas / 3. High Knees / 4. Plancha lateral (alternar)"
+        },
+        {
+          "exercise": "CIRCUITO 3 (Repetir 2 veces)",
+          "sets": "2",
+          "reps": "30s trabajo / 10s transición",
+          "rest": "60 seg entre circuitos",
+          "notes": "1. Burpees / 2. Mountain Climbers / 3. Squat Jumps / 4. Patadas de tríceps / 5. Abdominales bicicleta"
+        },
+        {
+          "exercise": "Finisher: Escaleras o Sprint Intervals",
+          "sets": "5",
+          "reps": "20s máximo / 40s caminar",
+          "rest": "N/A",
+          "notes": "Opción: subir escaleras, sprints en sitio, o cuerda de saltar"
+        },
+        {
+          "exercise": "Enfriamiento y Estiramiento",
+          "sets": "1",
+          "reps": "10 min",
+          "rest": "N/A",
+          "notes": "5 min caminata suave + 5 min estiramientos completos"
+        }
+      ]
+    }
+  ],
+  "metabolic_boosters": {
+    "neat_increase": [
+      "Usar escaleras siempre que sea posible",
+      "Caminar durante llamadas telefónicas",
+      "Parquear más lejos",
+      "Standing desk o pausas activas cada hora",
+      "10,000 pasos diarios mínimo"
+    ],
+    "training_techniques": [
+      "Supersets para mayor gasto calórico",
+      "Descansos más cortos entre series",
+      "Ejercicios compuestos prioritarios",
+      "HIIT 1-2 veces por semana máximo",
+      "Finishers metabólicos al final"
+    ]
+  },
+  "nutrition_strategy": {
+    "caloric_deficit": "300-500 calorías bajo mantenimiento",
+    "protein": "2.0-2.4g por kg peso corporal (preservar músculo)",
+    "meal_timing": "3-4 comidas balanceadas + 1-2 snacks proteicos",
+    "pre_workout": "Carbohidratos + cafeína 30-60 min antes",
+    "post_workout": "Proteína + carbohidratos dentro de 2 horas",
+    "hydration": "35ml por kg peso corporal + 500-750ml por hora de ejercicio"
+  },
+  "weight_loss_tips": [
+    "Pésate 1 vez por semana, mismo día y hora",
+    "Toma medidas corporales cada 2 semanas",
+    "Fotos de progreso cada 4 semanas",
+    "No elimines grupos de alimentos",
+    "Duerme 7-9 horas (crucial para pérdida grasa)",
+    "Un día de recarga cada 10-14 días",
+    "No bajes de 1200 cal/día (mujeres) o 1500 (hombres)"
+  ],
+  "common_mistakes": [
+    "Hacer demasiado cardio y poco pesas",
+    "Comer muy pocas calorías",
+    "No dormir suficiente",
+    "Expectativas irreales (más de 1kg/semana)",
+    "No trackear progreso correctamente",
+    "Eliminar carbohidratos completamente",
+    "No tomar días de descanso"
+  ],
+  "supplement_recommendations": {
+    "essential": [
+      "Proteína en polvo (si no alcanzas meta diaria)",
+      "Multivitamínico de calidad",
+      "Omega-3 (2-3g EPA/DHA)"
+    ],
+    "optional": [
+      "Cafeína (100-200mg pre-entreno)",
+      "Creatina monohidrato (5g diarios)",
+      "Vitamina D3 (2000-4000 IU si hay deficiencia)"
+    ]
+  },
+  "plateau_breakers": [
+    "Recalcular calorías cada 5kg perdidos",
+    "Variar tipo de cardio cada 3-4 semanas",
+    "Incorporar un refeed day (calorías a mantenimiento)",
+    "Cambiar orden de ejercicios",
+    "Añadir 1 día de HIIT extra",
+    "Revisar calidad del sueño y estrés"
+  ],
+  "equipment_needed": [
+    "Mancuernas variadas (3-20kg)",
+    "Banco o step ajustable",
+    "Colchoneta",
+    "Bandas de resistencia (opcional)",
+    "Acceso a cardio (cinta, bici, elíptica)"
+  ],
+  "success_indicators": [
+    "Pérdida de 0.5-1kg por semana",
+    "Mantenimiento o ganancia de fuerza",
+    "Mejor condición cardiovascular",
+    "Ropa más holgada",
+    "Mayor energía diaria",
+    "Mejor calidad de sueño",
+    "Hábitos sostenibles establecidos"
+  ],
+  "transition_guidelines": {
+    "to_intermediate": "Después de perder 10%+ peso corporal o 3+ meses consistentes",
+    "maintenance_phase": "Cada 12-16 semanas hacer 2-4 semanas mantenimiento",
+    "program_change": "Cambiar rutina cada 12 semanas para evitar adaptación"
+  },
+  "important_notes": [
+    "🔥 La pérdida de grasa es 70% dieta, 30% ejercicio",
+    "💪 El músculo quema calorías 24/7 - no temas las pesas",
+    "📊 El peso fluctúa diariamente - enfócate en tendencia semanal",
+    "😴 Dormir mal = hormonas del hambre alteradas",
+    "🚀 Consistencia > Perfección - no te rindas por un mal día",
+    "⚡ HIIT no es para todos los días - recuperación es clave"
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "id": "beginner-women",
+  "name": "Principiante Mujer - Glúteos & Definición",
+  "level": "Principiante",
+  "duration": "12-16 semanas",
+  "frequency": "4 días/semana",
+  "time_per_session": "50-65 minutos",
+  "goal": "Desarrollo de glúteos, piernas y definición corporal total para mujeres principiantes",
+  "description": "Rutina científicamente diseñada para mujeres que inician en el gym. Énfasis en glúteos y piernas sin descuidar tren superior. Basada en investigación específica de entrenamiento femenino y diferencias biomecánicas.",
+  "key_benefits": [
+    "Desarrollo prioritario de glúteos con técnica correcta",
+    "Tonificación completa sin \"ponerse grande\"",
+    "Progresión adaptada al ciclo menstrual",
+    "Ejercicios amigables para principiantes",
+    "Mejora postura y reduce dolor lumbar",
+    "Aumenta confianza en el gimnasio"
+  ],
+  "program_structure": {
+    "phases": [
+      {
+        "name": "Fase 1: Activación y Aprendizaje",
+        "weeks": "1-4",
+        "focus": "Activación glúteos, técnica básica",
+        "sets": "2-3 series",
+        "reps": "12-15",
+        "rest": "60-90 segundos"
+      },
+      {
+        "name": "Fase 2: Construcción Base",
+        "weeks": "5-8",
+        "focus": "Incremento volumen, fuerza básica",
+        "sets": "3-4 series",
+        "reps": "10-12",
+        "rest": "90-120 segundos"
+      },
+      {
+        "name": "Fase 3: Intensificación",
+        "weeks": "9-12",
+        "focus": "Mayor intensidad, técnicas avanzadas",
+        "sets": "3-4 series",
+        "reps": "8-12 variado",
+        "rest": "60-120 seg según ejercicio"
+      }
+    ],
+    "training_schedule": "Lunes (Lower A), Martes (Upper A), Jueves (Lower B), Viernes (Upper B)"
+  },
+  "workouts": [
+    {
+      "name": "Día 1 - Lower A: Glúteos & Cuádriceps",
+      "type": "Tren Inferior - Énfasis Glúteos",
+      "target": "Glúteos, cuádriceps, core",
+      "duration": "50-65 min",
+      "exercises": [
+        {
+          "exercise": "Hip Thrust con Barra",
+          "sets": "4",
+          "reps": "12-15",
+          "rest": "90 seg",
+          "notes": "EJERCICIO ESTRELLA - Pausa 2 seg arriba, aprieta glúteos. Empezar con peso ligero o solo barra"
+        },
+        {
+          "exercise": "Sentadilla Goblet",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "90 seg",
+          "notes": "Mancuerna al pecho, bajar controlado, rodillas hacia afuera. Excelente para aprender técnica"
+        },
+        {
+          "exercise": "Peso Muerto Rumano con Mancuernas",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "90 seg",
+          "notes": "Rodillas ligeramente flexionadas, sentir estiramiento en glúteos/isquios. Espalda neutra siempre"
+        },
+        {
+          "exercise": "Zancadas Caminando",
+          "sets": "3",
+          "reps": "10 por pierna",
+          "rest": "60 seg",
+          "notes": "Paso largo para más glúteo, torso erguido. Empezar sin peso"
+        },
+        {
+          "exercise": "Patadas de Glúteo en Cuadrupedia",
+          "sets": "3",
+          "reps": "15-20 por lado",
+          "rest": "45 seg",
+          "notes": "Activación final, mantener core apretado, no arquear espalda"
+        },
+        {
+          "exercise": "Plancha",
+          "sets": "3",
+          "reps": "30-45 seg",
+          "rest": "45 seg",
+          "notes": "Core fuerte = mejor activación glúteos. Mantener cadera alineada"
+        }
+      ]
+    },
+    {
+      "name": "Día 2 - Upper A: Espalda & Brazos",
+      "type": "Tren Superior - Tonificación",
+      "target": "Espalda, hombros, brazos",
+      "duration": "45-60 min",
+      "exercises": [
+        {
+          "exercise": "Jalones al Pecho Agarre Neutro",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "90 seg",
+          "notes": "Espalda en V, no brazos grandes. Llevar codos hacia cadera, apretar escápulas"
+        },
+        {
+          "exercise": "Press con Mancuernas Banco Plano",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "90 seg",
+          "notes": "Pecho tonificado y firme. Bajar hasta línea del pecho, no tocar mancuernas arriba"
+        },
+        {
+          "exercise": "Remo con Mancuerna a Una Mano",
+          "sets": "3",
+          "reps": "12-15 por lado",
+          "rest": "60 seg",
+          "notes": "Mejora postura, reduce dolor espalda. Codo cerca del cuerpo"
+        },
+        {
+          "exercise": "Elevaciones Laterales",
+          "sets": "3",
+          "reps": "15-20",
+          "rest": "60 seg",
+          "notes": "Hombros definidos sin volumen. Peso ligero, técnica perfecta"
+        },
+        {
+          "exercise": "Curl de Bíceps con Mancuernas",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "60 seg",
+          "notes": "Brazos tonificados. Alternar o simultáneo, sin balanceo"
+        },
+        {
+          "exercise": "Extensiones de Tríceps sobre Cabeza",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "60 seg",
+          "notes": "Elimina \"alas de murciélago\". Una mancuerna, codos pegados"
+        }
+      ]
+    },
+    {
+      "name": "Día 3 - Lower B: Glúteos & Isquiotibiales",
+      "type": "Tren Inferior - Énfasis Posterior",
+      "target": "Glúteos, isquiotibiales, gemelos",
+      "duration": "50-65 min",
+      "exercises": [
+        {
+          "exercise": "Peso Muerto Sumo con Mancuerna/Kettlebell",
+          "sets": "4",
+          "reps": "10-12",
+          "rest": "2 min",
+          "notes": "Pies anchos, puntas afuera. Activa glúteos e interior muslos. Peso entre piernas"
+        },
+        {
+          "exercise": "Hip Thrust a Una Pierna",
+          "sets": "3",
+          "reps": "12-15 por lado",
+          "rest": "60 seg",
+          "notes": "Versión avanzada, corrige desbalances. Empezar con peso corporal"
+        },
+        {
+          "exercise": "Sentadilla Búlgara",
+          "sets": "3",
+          "reps": "10-12 por pierna",
+          "rest": "90 seg",
+          "notes": "Destruye glúteos positivamente. Pie trasero elevado, bajar vertical"
+        },
+        {
+          "exercise": "Curl de Isquiotibiales Acostada",
+          "sets": "3",
+          "reps": "15-20",
+          "rest": "60 seg",
+          "notes": "Si no hay máquina, usar banda elástica. Contracción máxima"
+        },
+        {
+          "exercise": "Caminata Lateral con Banda",
+          "sets": "3",
+          "reps": "15 pasos por lado",
+          "rest": "45 seg",
+          "notes": "Glúteo medio, forma redondeada. Banda en tobillos o rodillas"
+        },
+        {
+          "exercise": "Elevaciones de Gemelos de Pie",
+          "sets": "3",
+          "reps": "15-20",
+          "rest": "45 seg",
+          "notes": "Piernas definidas completas. Pausa arriba, estiramiento abajo"
+        }
+      ]
+    },
+    {
+      "name": "Día 4 - Upper B: Hombros & Definición",
+      "type": "Tren Superior - Forma y Definición",
+      "target": "Hombros, pecho alto, core",
+      "duration": "45-60 min",
+      "exercises": [
+        {
+          "exercise": "Press Arnold con Mancuernas",
+          "sets": "3",
+          "reps": "10-12",
+          "rest": "90 seg",
+          "notes": "Hombros 3D. Rotación controlada, no usar peso excesivo"
+        },
+        {
+          "exercise": "Press Inclinado con Mancuernas",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "90 seg",
+          "notes": "Pecho alto, escote definido. Banco 30°, rango completo"
+        },
+        {
+          "exercise": "Face Pulls",
+          "sets": "3",
+          "reps": "15-20",
+          "rest": "60 seg",
+          "notes": "Postura perfecta, hombros saludables. Codos altos, separar cuerda al final"
+        },
+        {
+          "exercise": "Aperturas con Mancuernas",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "60 seg",
+          "notes": "Definición pectoral. Ligera flexión codos, sentir estiramiento"
+        },
+        {
+          "exercise": "Elevaciones Posteriores",
+          "sets": "3",
+          "reps": "15-20",
+          "rest": "45 seg",
+          "notes": "Hombros completos. Inclinada hacia adelante, brazos en T"
+        },
+        {
+          "exercise": "Circuito Core: Plancha + Bicicleta + Elevación Piernas",
+          "sets": "3",
+          "reps": "30s + 20 + 15",
+          "rest": "60 seg",
+          "notes": "Abdomen plano y fuerte. Sin descanso entre ejercicios"
+        }
+      ]
+    }
+  ],
+  "women_specific_considerations": {
+    "menstrual_cycle": {
+      "follicular_phase": "Días 1-14: Mayor fuerza y energía, aumentar intensidad",
+      "luteal_phase": "Días 15-28: Posible fatiga, mantener volumen pero reducir intensidad si necesario",
+      "menstruation": "Escuchar al cuerpo, reducir intensidad si hay molestias"
+    },
+    "common_concerns": {
+      "bulking_fear": "Imposible \"ponerse grande\" sin testosterona alta y exceso calórico extremo",
+      "spot_reduction": "No existe reducción localizada, la grasa se pierde de forma general",
+      "glute_activation": "Muchas mujeres necesitan trabajo extra de activación glútea"
+    }
+  },
+  "progression_guidelines": {
+    "weight_progression": "Aumentar 1-2.5kg cuando completes todas las series con buena forma",
+    "bodyweight_progression": "Agregar repeticiones antes de agregar peso externo",
+    "form_over_weight": "SIEMPRE priorizar técnica perfecta sobre peso usado",
+    "listen_to_body": "Ajustar según energía, especialmente durante ciclo menstrual"
+  },
+  "glute_activation_warmup": [
+    "Puentes de glúteo x20",
+    "Clamshells x15 por lado",
+    "Patadas de burro x15 por lado",
+    "Sentadillas con banda x15",
+    "Caminata lateral con banda x10 por lado"
+  ],
+  "nutrition_guidelines": {
+    "protein": "1.6-2.0g por kg peso corporal para tonificación",
+    "calories": "Déficit moderado (200-300 cal) para definición, mantenimiento para recomposición",
+    "carbs": "No eliminar - necesarios para energía y recuperación",
+    "hydration": "2.5-3L agua diaria, más durante menstruación",
+    "supplements": "Considerar hierro y vitamina D si hay deficiencia"
+  },
+  "form_tips": [
+    "Filmar los ejercicios para revisar técnica",
+    "Usar espejos para verificar postura",
+    "No temer pedir ayuda o un spotter",
+    "Empezar con peso ligero o corporal",
+    "Activación mental: pensar en el músculo trabajando"
+  ],
+  "equipment_needed": [
+    "Mancuernas variadas (2-15kg inicio)",
+    "Barra olímpica o pre-cargada",
+    "Bandas de resistencia (glúteos)",
+    "Banco ajustable",
+    "Colchoneta para suelo"
+  ],
+  "transition_indicators": [
+    "Dominio técnico en todos los ejercicios",
+    "Hip thrust con peso corporal o más",
+    "Capacidad de completar 4 días sin fatiga excesiva",
+    "Deseo de mayor volumen o ejercicios avanzados"
+  ],
+  "important_notes": [
+    "👩 Diseñada específicamente para fisiología femenina",
+    "🍑 Énfasis en glúteos pero entrenamiento balanceado",
+    "💪 No te harás \"grande\" - te harás fuerte y definida",
+    "🎯 Resultados visibles en 4-6 semanas con consistencia",
+    "📱 Toma fotos de progreso - la báscula puede mentir",
+    "💜 El gym es TU espacio - entrena con confianza"
+  ]
+}

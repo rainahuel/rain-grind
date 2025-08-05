@@ -1,0 +1,326 @@
+{
+  "id": "intermediate-women-glutes",
+  "name": "Glúteos & Piernas Avanzado - Mujer Intermedia",
+  "level": "Intermedio",
+  "duration": "12-16 semanas",
+  "frequency": "4 días/semana",
+  "time_per_session": "60-75 minutos",
+  "goal": "Máximo desarrollo de glúteos y piernas con técnicas avanzadas basadas en investigación de Bret Contreras",
+  "description": "Programa especializado para mujeres con experiencia que buscan maximizar el desarrollo de glúteos. Basado en EMG research y biomecánica del Dr. Bret Contreras 'The Glute Guy'. Sin circuitos - ejercicios tradicionales optimizados.",
+  "key_benefits": [
+    "Hipertrofia máxima de glúteos con base científica",
+    "Desarrollo completo: glúteo mayor, medio y menor",
+    "Mejora forma y proyección glútea",
+    "Piernas definidas y proporcionadas",
+    "Fuerza funcional para la vida diaria",
+    "Prevención lesiones rodilla y espalda baja"
+  ],
+  "program_structure": {
+    "phases": [
+      {
+        "name": "Fase 1: Volumen y Activación",
+        "weeks": "1-4",
+        "focus": "Alto volumen, perfeccionar activación glútea",
+        "sets": "3-4 series",
+        "reps": "8-15 según ejercicio",
+        "intensity": "70-80% 1RM"
+      },
+      {
+        "name": "Fase 2: Intensidad y Fuerza",
+        "weeks": "5-8",
+        "focus": "Cargas pesadas, fuerza máxima",
+        "sets": "4-5 series",
+        "reps": "5-10 principales",
+        "intensity": "80-90% 1RM"
+      },
+      {
+        "name": "Fase 3: Especialización",
+        "weeks": "9-12",
+        "focus": "Técnicas avanzadas, máximo desarrollo",
+        "sets": "3-5 series",
+        "reps": "Variado con intensificación",
+        "intensity": "Variable con técnicas especiales"
+      }
+    ],
+    "training_schedule": "Lunes (Glúteos/Isquios), Martes (Upper), Jueves (Cuádriceps/Glúteos), Sábado (Glúteos Pesado)"
+  },
+  "workouts": [
+    {
+      "name": "Día 1 - Glúteos & Isquiotibiales Dominante",
+      "type": "Lower Posterior Chain",
+      "target": "Glúteo mayor, isquiotibiales",
+      "duration": "60-75 min",
+      "exercises": [
+        {
+          "exercise": "Hip Thrust con Barra",
+          "sets": "4-5",
+          "reps": "8-12",
+          "rest": "2-3 min",
+          "notes": "EJERCICIO REY según EMG. Pausa 3 seg arriba, excéntrica controlada. Meta: 1.5-2x peso corporal"
+        },
+        {
+          "exercise": "Peso Muerto Rumano",
+          "sets": "4",
+          "reps": "8-10",
+          "rest": "2-3 min",
+          "notes": "Máximo estiramiento glúteos. Barra rozando piernas, push hips back, sentir glúteos e isquios"
+        },
+        {
+          "exercise": "Sentadilla Búlgara con Mancuernas",
+          "sets": "3",
+          "reps": "10-12 por pierna",
+          "rest": "90 seg por lado",
+          "notes": "Torso inclinado = más glúteo. Banco altura rodilla, descenso controlado"
+        },
+        {
+          "exercise": "Curl Nórdico o Curl Femoral Acostada",
+          "sets": "4",
+          "reps": "8-12",
+          "rest": "90 seg",
+          "notes": "Isquiotibiales fuertes = glúteos más activados. Control excéntrico crucial"
+        },
+        {
+          "exercise": "Cable Pull-Through",
+          "sets": "3",
+          "reps": "15-20",
+          "rest": "60 seg",
+          "notes": "Bisagra de cadera perfecta. Sentir estiramiento glúteos, explosivo al subir"
+        },
+        {
+          "exercise": "Caminata Lateral con Banda - Posición Cuarto Sentadilla",
+          "sets": "3",
+          "reps": "20 pasos por lado",
+          "rest": "60 seg",
+          "notes": "Glúteo medio para forma redondeada. Mantener tensión constante, no dejar que rodillas colapsen"
+        }
+      ]
+    },
+    {
+      "name": "Día 2 - Upper Body Complementario",
+      "type": "Tren Superior",
+      "target": "Balance muscular, postura",
+      "duration": "45-60 min",
+      "exercises": [
+        {
+          "exercise": "Press con Mancuernas Banco Plano",
+          "sets": "3",
+          "reps": "10-12",
+          "rest": "90 seg",
+          "notes": "Pecho firme complementa físico. Rango completo, no chocar mancuernas"
+        },
+        {
+          "exercise": "Remo con Barra Agarre Ancho",
+          "sets": "3",
+          "reps": "10-12",
+          "rest": "90 seg",
+          "notes": "Espalda ancha = cintura más pequeña visualmente. Llevar a pecho bajo"
+        },
+        {
+          "exercise": "Press Militar con Mancuernas Sentada",
+          "sets": "3",
+          "reps": "10-12",
+          "rest": "90 seg",
+          "notes": "Hombros 3D. Control total, no arquear espalda"
+        },
+        {
+          "exercise": "Jalones al Pecho Agarre Neutro",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "60 seg",
+          "notes": "V-taper. Llevar codos a costillas, apretar dorsales"
+        },
+        {
+          "exercise": "Superserie: Curl Bíceps + Extensión Tríceps",
+          "sets": "3",
+          "reps": "12-15 cada uno",
+          "rest": "60 seg",
+          "notes": "Brazos tonificados. Sin descanso entre ejercicios"
+        },
+        {
+          "exercise": "Face Pulls + Elevaciones Posteriores",
+          "sets": "3",
+          "reps": "15-20 cada uno",
+          "rest": "60 seg",
+          "notes": "Salud hombros, postura perfecta. Deltoides posterior balanceado"
+        }
+      ]
+    },
+    {
+      "name": "Día 3 - Cuádriceps con Glúteos Secundario",
+      "type": "Lower Quad Dominant",
+      "target": "Cuádriceps, glúteos secundario",
+      "duration": "60-75 min",
+      "exercises": [
+        {
+          "exercise": "Sentadilla Frontal o Hack Squat",
+          "sets": "4",
+          "reps": "8-12",
+          "rest": "2-3 min",
+          "notes": "Cuádriceps dominante pero glúteos trabajan. Profundidad máxima, rodillas pueden pasar puntas"
+        },
+        {
+          "exercise": "Prensa de Piernas - Pies Altos y Anchos",
+          "sets": "4",
+          "reps": "12-15",
+          "rest": "2 min",
+          "notes": "Posición para máximo glúteo. Bajar hasta 90° mínimo, empujar con talones"
+        },
+        {
+          "exercise": "Zancadas Caminando con Barra",
+          "sets": "3",
+          "reps": "12 por pierna",
+          "rest": "90 seg",
+          "notes": "Paso largo = más glúteo. Torso erguido, control total"
+        },
+        {
+          "exercise": "Peso Muerto Sumo con Mancuerna",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "90 seg",
+          "notes": "Glúteos + aductores. Pies 1.5x ancho hombros, puntas 45° afuera"
+        },
+        {
+          "exercise": "Extensión de Cuádriceps",
+          "sets": "3",
+          "reps": "15-20",
+          "rest": "60 seg",
+          "notes": "Aislamiento puro cuádriceps. Pausa arriba, control bajada"
+        },
+        {
+          "exercise": "Elevación de Gemelos en Prensa",
+          "sets": "4",
+          "reps": "15-20",
+          "rest": "45 seg",
+          "notes": "Pantorrillas definidas completan piernas. Rango completo, pausa arriba"
+        }
+      ]
+    },
+    {
+      "name": "Día 4 - Glúteos Pesado & Especialización",
+      "type": "Glute Specialization Day",
+      "target": "Desarrollo máximo glúteos todos los ángulos",
+      "duration": "60-75 min",
+      "exercises": [
+        {
+          "exercise": "Sentadilla Sumo con Barra",
+          "sets": "4",
+          "reps": "6-10",
+          "rest": "3 min",
+          "notes": "Máxima activación glúteo según EMG. Pies muy anchos, bajar con control, explotar arriba"
+        },
+        {
+          "exercise": "Hip Thrust a Una Pierna",
+          "sets": "3",
+          "reps": "12-15 por lado",
+          "rest": "60 seg por lado",
+          "notes": "Corrección desbalances, intensidad brutal. Peso en pliegue cadera, no abdomen"
+        },
+        {
+          "exercise": "Peso Muerto con Piernas Rígidas - Déficit",
+          "sets": "3",
+          "reps": "10-12",
+          "rest": "2 min",
+          "notes": "Pararse en step 2-4 pulgadas. Máximo estiramiento glúteos e isquios"
+        },
+        {
+          "exercise": "Sentadilla Goblet Pausa",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "90 seg",
+          "notes": "Pausa 3 seg abajo. Mancuerna pesada al pecho, glúteos bajo paralelo"
+        },
+        {
+          "exercise": "Kickbacks en Cable",
+          "sets": "3",
+          "reps": "15-20 por pierna",
+          "rest": "45 seg",
+          "notes": "Aislamiento puro glúteo mayor. Pierna recta, patear alto y atrás"
+        },
+        {
+          "exercise": "Abducción de Cadera en Máquina o Cable",
+          "sets": "3",
+          "reps": "20-25 por lado",
+          "rest": "45 seg",
+          "notes": "Glúteo medio para ancho de cadera. Rango completo, sin impulso"
+        },
+        {
+          "exercise": "Finisher: Frog Pumps",
+          "sets": "2",
+          "reps": "30-50",
+          "rest": "45 seg",
+          "notes": "Plantas de pies juntas, rodillas abiertas. Bombeo hasta quemar, activación final"
+        }
+      ]
+    }
+  ],
+  "glute_science_facts": {
+    "emg_research": "Hip Thrust muestra 119% activación vs sentadilla (69%) según Contreras et al. 2015",
+    "fiber_composition": "Glúteo mayor: 68% fibras tipo I (resistencia) + 32% tipo II (fuerza/potencia)",
+    "volume_recommendations": "10-20 series semanales para hipertrofia óptima (Schoenfeld 2017)",
+    "frequency": "2-3x por semana superior a 1x para desarrollo (Schoenfeld meta-analysis)",
+    "mechanical_tension": "Carga pesada (85%+ 1RM) crucial para desarrollo máximo"
+  },
+  "advanced_techniques": {
+    "pause_reps": "Pausar 2-3 seg en posición de máxima contracción",
+    "1.5_reps": "Bajar completo, subir mitad, bajar, subir completo = 1 rep",
+    "accommodating_resistance": "Agregar bandas a hip thrust y sentadillas",
+    "pre_exhaustion": "Aislar glúteos antes de compuestos pesados",
+    "post_activation_potentiation": "Heavy hip thrust antes de sentadillas"
+  },
+  "progression_strategy": {
+    "hip_thrust_goals": {
+      "beginner": "Peso corporal x 10 reps",
+      "intermediate": "1.5x peso corporal x 10",
+      "advanced": "2x peso corporal x 10",
+      "elite": "2.5x+ peso corporal x 10"
+    },
+    "weekly_progression": "Aumentar 2.5-5kg en ejercicios principales cuando completes todas las series",
+    "form_checkpoints": "Filmar serie pesada semanalmente para verificar técnica"
+  },
+  "nutrition_for_glutes": {
+    "caloric_surplus": "+200-400 calorías para construcción muscular",
+    "protein": "2.2-2.7g/kg para síntesis proteica óptima",
+    "carbs_timing": "Mayor porción pre/post entreno piernas",
+    "leucine": "3-4g por comida para activar mTOR",
+    "creatine": "5g diarios - mejora fuerza y volumen muscular"
+  },
+  "recovery_essentials": {
+    "glute_specific": [
+      "Foam roll glúteos y IT band diariamente",
+      "Estiramiento piriforme y flexores cadera",
+      "Activación con bandas en días de descanso",
+      "Masaje profundo semanal si es posible"
+    ],
+    "sleep": "8-9 horas para liberación hormona crecimiento",
+    "active_recovery": "Caminatas, yoga, natación suave"
+  },
+  "common_issues_solutions": {
+    "no_glute_activation": "Hacer activación 10 min antes de entrenar + mind-muscle connection",
+    "lower_back_takes_over": "Reducir peso, enfocarse en bisagra cadera correcta",
+    "knee_pain": "Verificar tracking rodilla, fortalecer VMO y glúteo medio",
+    "plateau": "Cambiar stance, tempo, o implementar técnicas de intensificación"
+  },
+  "equipment_needed": [
+    "Barra olímpica + bumper plates",
+    "Hip thrust pad o barbell pad",
+    "Mancuernas pesadas (hasta 30kg+)",
+    "Bandas de resistencia loop",
+    "Banco/caja para elevaciones",
+    "Cable machine",
+    "Prensa de piernas"
+  ],
+  "transition_indicators": [
+    "Hip thrust 2x peso corporal con buena forma",
+    "Capacidad de activar glúteos a voluntad",
+    "Deseo de competir o especialización extrema",
+    "Meseta en desarrollo después de 6+ meses"
+  ],
+  "important_notes": [
+    "🔬 Basado en investigación EMG de Bret Contreras PhD",
+    "🍑 Hip Thrust es el REY para glúteos - no negociable",
+    "⚡ Activación pre-entreno CRUCIAL para resultados",
+    "📸 Toma fotos desde todos los ángulos para ver progreso",
+    "💪 Glúteos fuertes = menos dolor espalda + mejor rendimiento",
+    "🎯 Paciencia - glúteos son músculo grande, toman tiempo"
+  ]
+}

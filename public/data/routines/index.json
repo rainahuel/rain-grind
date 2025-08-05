@@ -3,7 +3,7 @@
     "title": "Catálogo de Rutinas Rain & Grind",
     "description": "Rutinas de entrenamiento basadas en evidencia científica",
     "last_updated": "2025-01-01",
-    "total_routines": 5
+    "total_routines": 8
   },
   "categories": {
     "beginner": {
@@ -169,6 +169,87 @@
         "Fases progresivas con periodización",
         "Incluye protocolos nutricionales completos",
         "Estrategias anti-plateau y reverse diet"
+      ]
+    },
+    {
+      "id": "beginner-women",
+      "name": "Principiante Mujer - Glúteos & Definición",
+      "category": "beginner",
+      "goal": "Desarrollo de glúteos, piernas y definición corporal total para mujeres principiantes",
+      "level": "Principiante",
+      "duration": "12-16 semanas",
+      "frequency": "4 días/semana",
+      "time_per_session": "50-65 minutos",
+      "equipment": "Mancuernas, barra, bandas resistencia, banco",
+      "description": "Rutina científicamente diseñada para mujeres que inician en el gym. Énfasis en glúteos y piernas sin descuidar tren superior. Basada en investigación específica de entrenamiento femenino y diferencias biomecánicas.",
+      "file": "beginner-women.json",
+      "download_url": "/downloads/beginner-women.json",
+      "scientific_basis": [
+        "Contreras et al. - Gluteal Training Biomechanics",
+        "NSCA - Women's Training Considerations",
+        "Schoenfeld - Training Adaptations in Women"
+      ],
+      "key_benefits": [
+        "Desarrollo prioritario de glúteos con técnica correcta",
+        "Tonificación completa sin \"ponerse grande\"",
+        "Progresión adaptada al ciclo menstrual",
+        "Ejercicios amigables para principiantes",
+        "Mejora postura y reduce dolor lumbar",
+        "Aumenta confianza en el gimnasio"
+      ]
+    },
+    {
+      "id": "weight-loss-beginner",
+      "name": "Transformación Total - Pérdida de Grasa Principiante",
+      "category": "beginner",
+      "goal": "Pérdida de grasa efectiva mientras construyes hábitos saludables y masa muscular básica",
+      "level": "Principiante", 
+      "duration": "12-16 semanas",
+      "frequency": "4 días/semana",
+      "time_per_session": "45-60 minutos",
+      "equipment": "Mancuernas, banco, equipo cardio básico",
+      "description": "Programa científico para principiantes que buscan perder grasa de forma sostenible. Combina entrenamiento de fuerza con cardio estratégico para maximizar la quema calórica y preservar músculo. Basado en investigación actual sobre pérdida de grasa.",
+      "file": "weight-loss-beginner.json",
+      "download_url": "/downloads/weight-loss-beginner.json",
+      "scientific_basis": [
+        "ACSM - Weight Loss Guidelines",
+        "Donnelly et al. - Exercise and Weight Loss",
+        "Willis et al. - Resistance vs Aerobic Training"
+      ],
+      "key_benefits": [
+        "Pérdida de grasa sostenible (0.5-1kg/semana)",
+        "Preservación y construcción de músculo",
+        "Mejora capacidad cardiovascular",
+        "Aumento del metabolismo basal",
+        "Desarrollo de hábitos duraderos",
+        "Reducción de riesgo de enfermedades"
+      ]
+    },
+    {
+      "id": "intermediate-women-glutes",
+      "name": "Glúteos & Piernas Avanzado - Mujer Intermedia",
+      "category": "intermediate",
+      "goal": "Máximo desarrollo de glúteos y piernas con técnicas avanzadas basadas en investigación",
+      "level": "Intermedio",
+      "duration": "12-16 semanas",
+      "frequency": "4 días/semana",
+      "time_per_session": "60-75 minutos",
+      "equipment": "Barra, mancuernas pesadas, hip thrust setup, cables",
+      "description": "Programa especializado para mujeres con experiencia que buscan maximizar el desarrollo de glúteos. Basado en EMG research y biomecánica del Dr. Bret Contreras 'The Glute Guy'. Sin circuitos - ejercicios tradicionales optimizados.",
+      "file": "intermediate-women-glutes.json",
+      "download_url": "/downloads/intermediate-women-glutes.json",
+      "scientific_basis": [
+        "Contreras et al. - EMG Analysis of Glute Exercises",
+        "Schoenfeld - Hypertrophy Training Volume",
+        "NSCA - Advanced Training for Women"
+      ],
+      "key_benefits": [
+        "Hipertrofia máxima de glúteos con base científica",
+        "Desarrollo completo: glúteo mayor, medio y menor",
+        "Mejora forma y proyección glútea",
+        "Piernas definidas y proporcionadas",
+        "Fuerza funcional para la vida diaria",
+        "Prevención lesiones rodilla y espalda baja"
       ]
     }
   ]
