@@ -12,7 +12,7 @@ import {
   Activity
 } from 'lucide-react';
 
-const Footer = () => {
+const Footer = ({ setActiveSection }) => {
   const currentYear = new Date().getFullYear();
 
   return (
@@ -77,25 +77,24 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li>
-                <a href="#rutinas" className="group flex items-center space-x-2 text-gray-300 hover:text-orange-400 transition-all">
+                <button 
+                  onClick={() => setActiveSection('routines')}
+                  className="group flex items-center space-x-2 text-gray-300 hover:text-orange-400 transition-all cursor-pointer"
+                >
                   <span className="text-orange-500 group-hover:translate-x-1 transition-transform">→</span>
                   <Dumbbell size={16} className="text-gray-500 group-hover:text-orange-400" />
                   <span className="font-medium">Rutinas de Entrenamiento</span>
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#dietas" className="group flex items-center space-x-2 text-gray-300 hover:text-orange-400 transition-all">
+                <button 
+                  onClick={() => setActiveSection('nutrition')}
+                  className="group flex items-center space-x-2 text-gray-300 hover:text-orange-400 transition-all cursor-pointer"
+                >
                   <span className="text-orange-500 group-hover:translate-x-1 transition-transform">→</span>
                   <Activity size={16} className="text-gray-500 group-hover:text-orange-400" />
                   <span className="font-medium">Nutrición y Dietas</span>
-                </a>
-              </li>
-              <li>
-                <a href="#energia" className="group flex items-center space-x-2 text-gray-300 hover:text-orange-400 transition-all">
-                  <span className="text-orange-500 group-hover:translate-x-1 transition-transform">→</span>
-                  <Zap size={16} className="text-gray-500 group-hover:text-orange-400" />
-                  <span className="font-medium">Energía y Rendimiento</span>
-                </a>
+                </button>
               </li>
             </ul>
           </div>
