@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Día 1 - Upper Body Strength",
+    "type": "Fuerza Tren Superior",
+    "target": "Mantener fuerza, preservar masa muscular",
+    "duration": "60-75 min",
+    "exercises": [
+      {
+        "exercise": "Press Banca con Barra",
+        "sets": "4",
+        "reps": "6-8", 
+        "rest": "2-3 min",
+        "notes": "EJERCICIO PRINCIPAL - Técnica perfecta, no sacrificar forma por peso. Mantener fuerza en déficit"
+      },
+      {
+        "exercise": "Remo con Barra",
+        "sets": "4",
+        "reps": "8-10",
+        "rest": "2 min", 
+        "notes": "Equilibrar trabajo de empuje, tirar hacia ombligo, técnica estricta"
+      },
+      {
+        "exercise": "Press Militar con Mancuernas",
+        "sets": "3",
+        "reps": "10-12",
+        "rest": "90 seg",
+        "notes": "Mayor estabilización que barra, rango completo, core activado"
+      },
+      {
+        "exercise": "Dominadas o Jalones",
+        "sets": "3",
+        "reps": "8-12", 
+        "rest": "90 seg",
+        "notes": "Esencial para desarrollo espalda, control excéntrico"
+      },
+      {
+        "exercise": "Curl de Bíceps",
+        "sets": "3",
+        "reps": "12-15",
+        "rest": "60 seg",
+        "notes": "Conexión mente-músculo, sin balanceo corporal"
+      },
+      {
+        "exercise": "Extensiones de Tríceps",
+        "sets": "3", 
+        "reps": "12-15",
+        "rest": "60 seg",
+        "notes": "Mantener tensión constante, codos estables"
+      }
+    ]
+  },
+  {
+    "name": "Día 2 - LISS Cardio + Core",
+    "type": "Cardio de Baja Intensidad",
+    "target": "Quema de grasa, recuperación activa",
+    "duration": "30-45 min",
+    "exercises": [
+      {
+        "exercise": "Caminata Inclinada en Cinta",
+        "sets": "1",
+        "reps": "30-45 min",
+        "rest": "N/A",
+        "notes": "60-70% FCM, RPE 6-7/10. Mantener conversación, inclinación 5-12%"
+      },
+      {
+        "exercise": "Plancha",
+        "sets": "3",
+        "reps": "45-60 seg",
+        "rest": "60 seg",
+        "notes": "Línea recta cabeza-talones, core activado, respiración controlada"
+      },
+      {
+        "exercise": "Plancha Lateral",
+        "sets": "2x lado",
+        "reps": "30-45 seg",
+        "rest": "45 seg",
+        "notes": "Oblicuos, no dejar caer cadera, mantener alineación"
+      },
+      {
+        "exercise": "Dead Bug",
+        "sets": "3",
+        "reps": "10x lado",
+        "rest": "45 seg",
+        "notes": "Control, espalda pegada al suelo, movimiento lento"
+      },
+      {
+        "exercise": "Mountain Climbers",
+        "sets": "3",
+        "reps": "20x lado",
+        "rest": "60 seg",
+        "notes": "Ritmo controlado, mantener plancha, activación core"
+      }
+    ]
+  },
+  {
+    "name": "Día 3 - Lower Body Strength", 
+    "type": "Fuerza Tren Inferior",
+    "target": "Mantener fuerza piernas, activar metabolismo",
+    "duration": "60-75 min",
+    "exercises": [
+      {
+        "exercise": "Sentadilla Trasera",
+        "sets": "4",
+        "reps": "8-10",
+        "rest": "3 min",
+        "notes": "Rey de ejercicios, profundidad completa, alto gasto energético. Mantener cargas en déficit"
+      },
+      {
+        "exercise": "Peso Muerto Rumano",
+        "sets": "4",
+        "reps": "10-12", 
+        "rest": "2-3 min",
+        "notes": "Enfoque en isquiotibiales, desarrollo cadena posterior, barra cerca del cuerpo"
+      },
+      {
+        "exercise": "Prensa de Piernas",
+        "sets": "3",
+        "reps": "15-20",
+        "rest": "90 seg",
+        "notes": "Volumen adicional sin fatiga sistémica, rango completo, pies posición media"
+      },
+      {
+        "exercise": "Curl de Isquiotibiales",
+        "sets": "4",
+        "reps": "12-15",
+        "rest": "60 seg", 
+        "notes": "Control excéntrico, aislamiento isquiotibiales, contracción máxima"
+      },
+      {
+        "exercise": "Extensiones de Cuádriceps",
+        "sets": "3",
+        "reps": "15-20",
+        "rest": "60 seg",
+        "notes": "Rango completo, contracción máxima en pico, finalizar cuádriceps"
+      },
+      {
+        "exercise": "Elevaciones de Gemelos",
+        "sets": "4",
+        "reps": "20-25",
+        "rest": "45 seg",
+        "notes": "Pausa en contracción, desarrollo completo pantorrillas"
+      }
+    ]
+  },
+  {
+    "name": "Día 4 - Upper Body Volume",
+    "type": "Volumen Tren Superior", 
+    "target": "Alto volumen, preservación muscular, gasto calórico",
+    "duration": "45-60 min",
+    "exercises": [
+      {
+        "exercise": "Press Inclinado con Mancuernas",
+        "sets": "4",
+        "reps": "12-15",
+        "rest": "75 seg",
+        "notes": "Desarrollo pectoral superior, enfoque en contracción muscular, banco 30-45°"
+      },
+      {
+        "exercise": "Remo con Mancuerna",
+        "sets": "4x brazo",
+        "reps": "12-15",
+        "rest": "45 seg entre brazos",
+        "notes": "Trabajo unilateral, rango completo, apretar escápula, no rotar torso"
+      },
+      {
+        "exercise": "Elevaciones Laterales",
+        "sets": "4",
+        "reps": "15-20", 
+        "rest": "45 seg",
+        "notes": "Técnica perfecta, tiempo bajo tensión, desarrollo deltoides lateral"
+      },
+      {
+        "exercise": "Face Pulls",
+        "sets": "4",
+        "reps": "20-25",
+        "rest": "45 seg",
+        "notes": "Deltoides posterior, salud escapular y postura, tirar hacia cara"
+      },
+      {
+        "exercise": "Superset: Curl + Extensiones",
+        "sets": "3",
+        "reps": "15-20 cada ejercicio",
+        "rest": "90 seg entre supersets",
+        "notes": "Bomba muscular, eficiencia tiempo, finalizar brazos con alto volumen"
+      }
+    ]
+  },
+  {
+    "name": "Día 5 - Lower Body Volume",
+    "type": "Volumen Tren Inferior",
+    "target": "Alto volumen piernas, máximo gasto calórico", 
+    "duration": "45-60 min",
+    "exercises": [
+      {
+        "exercise": "Sentadilla Frontal",
+        "sets": "4",
+        "reps": "12-15",
+        "rest": "90 seg",
+        "notes": "Variación para cuádriceps, mayor activación core, torso más vertical"
+      },
+      {
+        "exercise": "Hip Thrust",
+        "sets": "4",
+        "reps": "15-20",
+        "rest": "75 seg",
+        "notes": "Desarrollo glúteos, pausa en contracción, espalda apoyada en banco"
+      },
+      {
+        "exercise": "Sentadilla Búlgara",
+        "sets": "3x pierna",
+        "reps": "15-20",
+        "rest": "45 seg entre piernas", 
+        "notes": "Trabajo unilateral intenso, profundidad y control, peso en pierna frontal"
+      },
+      {
+        "exercise": "Peso Muerto a Pierna Rígida",
+        "sets": "3",
+        "reps": "15-20", 
+        "rest": "75 seg",
+        "notes": "Volumen cadena posterior, estiramiento máximo isquiotibiales"
+      },
+      {
+        "exercise": "Circuito Gemelos",
+        "sets": "3 rondas",
+        "reps": "20 pie + 20 sentado + 20 saltos",
+        "rest": "60 seg entre rondas",
+        "notes": "Sin descanso dentro del circuito, bomba completa pantorrillas"
+      }
+    ]
+  },
+  {
+    "name": "Día 6 - HIIT Cardio + Movilidad",
+    "type": "Cardio Alta Intensidad", 
+    "target": "Máximo gasto calórico, preservar músculo",
+    "duration": "15-25 min HIIT + 10-15 min movilidad",
+    "exercises": [
+      {
+        "exercise": "HIIT Sprint en Cinta",
+        "sets": "8-12 intervalos",
+        "reps": "30s trabajo : 60s descanso",
+        "rest": "Según protocolo",
+        "notes": "85-95% FCM en trabajo, caminar en descanso. Progresión: más intervalos o menos descanso"
+      },
+      {
+        "exercise": "Estiramiento Isquiotibiales",
+        "sets": "2",
+        "reps": "30 seg x pierna", 
+        "rest": "N/A",
+        "notes": "Pierna extendida, tocar pie, mantener tensión suave"
+      },
+      {
+        "exercise": "Estiramiento Cuádriceps",
+        "sets": "2",
+        "reps": "30 seg x pierna",
+        "rest": "N/A", 
+        "notes": "Talón hacia glúteo, mantener postura erguida, no arquear espalda"
+      },
+      {
+        "exercise": "Gato-Camello",
+        "sets": "2",
+        "reps": "10-15 repeticiones",
+        "rest": "N/A",
+        "notes": "Movilidad columna, movimiento controlado, respiración profunda"
+      },
+      {
+        "exercise": "Estiramiento Pectoral",
+        "sets": "2",
+        "reps": "30 seg",
+        "rest": "N/A",
+        "notes": "En marco de puerta, abrir pecho, contrarrestar postura de escritorio"
+      }
+    ]
+  }
+]

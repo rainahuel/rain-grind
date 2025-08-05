@@ -1,0 +1,117 @@
+{
+    "rutinas": {
+      "category": "Entrenamiento y Rutinas",
+      "icon": "Target",
+      "color": "orange",
+      "description": "Guías prácticas y manuales descargables sobre programación de entrenamiento",
+      "sources": [
+        {
+          "title": "Manual Básico NSCA: Fuerza y Acondicionamiento",
+          "url": "https://www.nsca.com/contentassets/116c55d64e1343d2b264e05aaf158a91/basics_of_strength_and_conditioning_manual.pdf",
+          "description": "Manual GRATUITO completo de la NSCA. Incluye programas recomendados, ejercicios específicos y protocolos para ganar fuerza de forma segura.",
+          "type": "Manual PDF Gratuito",
+          "journal": "National Strength & Conditioning Association",
+          "year": "2024",
+          "key_findings": "Programas específicos para principiantes, técnicas de ejercicio con fotos paso a paso, y protocolos de seguridad validados."
+        },
+        {
+          "title": "Guía Científica: Pérdida de Grasa Basada en Evidencia",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8017325/",
+          "description": "Revisión completa de estrategias dietéticas para pérdida de peso. Incluye protocolos específicos, timing de comidas y comparación de dietas.",
+          "type": "Revisión Científica Completa",
+          "journal": "PMC - Medicina Preventiva",
+          "year": "2021", 
+          "key_findings": "El déficit calórico es lo más importante. Dietas altas en proteína mejoran la saciedad. El timing de comidas también influye."
+        }
+      ]
+    },
+    "dietas": {
+      "category": "Nutrición y Dietas",
+      "icon": "Apple",
+      "color": "green", 
+      "description": "Guías nutricionales respaldadas por estudios clínicos y organizaciones oficiales",
+      "sources": [
+        {
+          "title": "Estrategias Científicas para Pérdida de Peso - NCBI",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK221839/",
+          "description": "Guía completa del National Institute of Health sobre estrategias de pérdida de peso. Incluye protocolos específicos y evidencia de efectividad.",
+          "type": "Guía Oficial Completa",
+          "journal": "National Institute of Health",
+          "year": "2023",
+          "key_findings": "Combinación de restricción calórica + ejercicio es más efectiva. Cambios de comportamiento son clave para mantenimiento."
+        },
+        {
+          "title": "18 Métodos Para Perder Grasa Abdominal (Respaldados por Ciencia)",
+          "url": "https://www.healthline.com/nutrition/20-tips-to-lose-belly-fat",
+          "description": "Guía práctica con estrategias específicas para reducir grasa abdominal. Cada método incluye referencias a estudios científicos.",
+          "type": "Guía Práctica Basada en Evidencia",
+          "journal": "Healthline - Revisado por PhD",
+          "year": "2024",
+          "key_findings": "Fibra soluble reduce grasa abdominal 3.7% por cada 10g diarios. Proteína aumenta metabolismo y conserva músculo."
+        }
+      ]
+    },
+    "energia": {
+      "category": "Energía y Rendimiento",
+      "icon": "Zap",
+      "color": "red",
+      "description": "Investigación sobre optimización natural del rendimiento y hormonas",
+      "sources": [
+        {
+          "title": "Revisión Sistemática: Hierbas que Aumentan Testosterona en Hombres",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8166567/",
+          "description": "Análisis científico de 32 estudios sobre suplementos naturales. Incluye dosificaciones específicas y efectividad real de cada hierba.",
+          "type": "Revisión Sistemática",
+          "journal": "PMC - Advances in Nutrition",
+          "year": "2021",
+          "key_findings": "Solo 2 hierbas tienen evidencia sólida: extracto de fenogreco y ashwagandha. La mayoría de suplementos NO tienen respaldo científico."
+        },
+        {
+          "title": "8 Formas Naturales de Aumentar Testosterona (Basadas en Ciencia)",
+          "url": "https://www.healthline.com/nutrition/8-ways-to-boost-testosterone",
+          "description": "Guía práctica con métodos naturales validados científicamente. Incluye ejercicios específicos, alimentos y hábitos de vida.",
+          "type": "Guía Práctica Científica",
+          "journal": "Healthline - Revisado por MD",
+          "year": "2024",
+          "key_findings": "Entrenamiento de fuerza es lo más efectivo. Vitamina D puede aumentar T 20%. El sueño de calidad es crucial para producción hormonal."
+        }
+      ]
+    },
+    "methodology": {
+      "approach": "Revisión sistemática de literatura científica con enfoque práctico",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Búsqueda de Fuentes Prácticas",
+          "description": "Priorización de guías con PDFs descargables, protocolos específicos y aplicación directa"
+        },
+        {
+          "step": "2", 
+          "title": "Validación Científica",
+          "description": "Verificación de que cada fuente tenga respaldo en estudios peer-reviewed y organizaciones oficiales"
+        },
+        {
+          "step": "3",
+          "title": "Accesibilidad", 
+          "description": "Selección de contenido disponible gratuitamente y en formatos fáciles de usar"
+        },
+        {
+          "step": "4",
+          "title": "Aplicación Real",
+          "description": "Enfoque en información que se puede implementar inmediatamente en el gimnasio y la cocina"
+        }
+      ],
+      "quality_criteria": [
+        "Fuentes con contenido descargable (PDFs, guías completas)",
+        "Protocolos específicos con dosificaciones y ejercicios detallados",
+        "Respaldo de organizaciones reconocidas (NSCA, ACSM, NIH)",
+        "Estudios recientes (2020-2024) con muestras adecuadas"
+      ],
+      "primary_sources": [
+        "NSCA (National Strength & Conditioning Association)",
+        "PMC (PubMed Central) - Artículos completos gratuitos", 
+        "NIH (National Institute of Health)",
+        "Healthline - Contenido revisado por MDs y PhDs"
+      ]
+    }
+  }

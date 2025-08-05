@@ -1,0 +1,453 @@
+{
+    "id": "push-pull-legs",
+    "name": "Push/Pull/Legs",
+    "level": "Intermedio",
+    "duration": "12-16 semanas",
+    "frequency": "6 días/semana (3x PPL)",
+    "time_per_session": "60-75 minutos",
+    "goal": "Desarrollo muscular equilibrado mediante división por función muscular",
+    "description": "División clásica que separa músculos por función: empuje, tirón y piernas. Permite mayor volumen y frecuencia de entrenamiento para maximizar hipertrofia. Ideal para intermedios que buscan desarrollo muscular.",
+    "key_benefits": [
+      "Alto volumen de entrenamiento por grupo muscular",
+      "Recuperación óptima por función muscular",
+      "Flexibilidad en programación de días",
+      "Progresión sostenible y específica",
+      "Mayor frecuencia de entrenamiento (2x/semana)",
+      "Especialización en desarrollo muscular"
+    ],
+    "program_structure": {
+      "split_explanation": {
+        "push": "Pectoral, deltoides, tríceps",
+        "pull": "Espalda, bíceps, deltoides posterior",
+        "legs": "Cuádriceps, isquiotibiales, glúteos, gemelos"
+      },
+      "weekly_schedule": "Push - Pull - Legs - Push - Pull - Legs - Descanso",
+      "alternative_schedule": "Push - Pull - Legs - Descanso - Push - Pull - Legs",
+      "flexibility": "Mínimo 1 día completo de descanso por semana"
+    },
+    "workouts": [
+      {
+        "name": "Día 1 - Push (Pectoral, Deltoides, Tríceps)",
+        "type": "Empuje",
+        "target": "Músculos que empujan peso del cuerpo",
+        "duration": "60-75 min",
+        "exercises": [
+          {
+            "exercise": "Press Banca con Barra",
+            "sets": "4",
+            "reps": "6-8",
+            "rest": "3-4 min",
+            "notes": "EJERCICIO PRINCIPAL - Técnica perfecta, escápulas retraídas. Progresión: +2.5kg semanalmente"
+          },
+          {
+            "exercise": "Press Inclinado con Mancuernas",
+            "sets": "4",
+            "reps": "8-10",
+            "rest": "2-3 min",
+            "notes": "Banco 30-45°, rango completo. Desarrollo pectoral superior"
+          },
+          {
+            "exercise": "Press Militar Sentado",
+            "sets": "4",
+            "reps": "8-10",
+            "rest": "2-3 min",
+            "notes": "Core activado, espalda apoyada. Desarrollo deltoides anterior y lateral"
+          },
+          {
+            "exercise": "Fondos en Paralelas",
+            "sets": "3",
+            "reps": "10-15",
+            "rest": "90 seg",
+            "notes": "Inclinación hacia adelante para pectoral. Agregar peso cuando hagas 3x15"
+          },
+          {
+            "exercise": "Elevaciones Laterales",
+            "sets": "4",
+            "reps": "12-15",
+            "rest": "60 seg",
+            "notes": "Control en excéntrica, sin impulso. Desarrollo deltoides lateral"
+          },
+          {
+            "exercise": "Press Francés",
+            "sets": "3",
+            "reps": "10-12",
+            "rest": "90 seg",
+            "notes": "Codos estables, solo movimiento antebrazo. Aislamiento tríceps"
+          },
+          {
+            "exercise": "Extensiones de Tríceps en Polea",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "60 seg",
+            "notes": "Codos pegados, extensión completa. Finalizar tríceps"
+          }
+        ]
+      },
+      {
+        "name": "Día 2 - Pull (Espalda, Bíceps)",
+        "type": "Tirón",
+        "target": "Músculos que tiran peso hacia el cuerpo",
+        "duration": "60-75 min",
+        "exercises": [
+          {
+            "exercise": "Peso Muerto Convencional",
+            "sets": "4",
+            "reps": "5-6",
+            "rest": "3-4 min",
+            "notes": "EJERCICIO PRINCIPAL - Técnica perfecta, progresión conservadora. Base de fuerza"
+          },
+          {
+            "exercise": "Dominadas con Peso",
+            "sets": "4",
+            "reps": "6-10",
+            "rest": "2-3 min",
+            "notes": "Control excéntrico, agregar peso gradualmente. Si no puedes, usar asistencia"
+          },
+          {
+            "exercise": "Remo con Barra",
+            "sets": "4",
+            "reps": "8-10",
+            "rest": "2-3 min",
+            "notes": "Torso 45°, tirar hacia ombligo. Desarrollo dorsal y romboides"
+          },
+          {
+            "exercise": "Remo con Mancuerna Una Mano",
+            "sets": "3x brazo",
+            "reps": "10-12",
+            "rest": "60 seg",
+            "notes": "No rotar torso, rango completo. Trabajo unilateral"
+          },
+          {
+            "exercise": "Face Pulls",
+            "sets": "4",
+            "reps": "15-20",
+            "rest": "60 seg",
+            "notes": "Deltoides posterior, salud escapular. Tirar hacia cara"
+          },
+          {
+            "exercise": "Curl de Bíceps con Barra",
+            "sets": "3",
+            "reps": "10-12",
+            "rest": "90 seg",
+            "notes": "Sin impulso, control total. Desarrollo masa bíceps"
+          },
+          {
+            "exercise": "Curl Martillo",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "60 seg",
+            "notes": "Agarre neutro, desarrollo braquial y bíceps lateral"
+          }
+        ]
+      },
+      {
+        "name": "Día 3 - Legs (Cuádriceps, Isquiotibiales, Glúteos)",
+        "type": "Piernas",
+        "target": "Desarrollo completo tren inferior",
+        "duration": "60-75 min",
+        "exercises": [
+          {
+            "exercise": "Sentadilla con Barra",
+            "sets": "4",
+            "reps": "6-8",
+            "rest": "3-4 min",
+            "notes": "EJERCICIO PRINCIPAL - Rey de ejercicios. Profundidad completa, progresión +5kg"
+          },
+          {
+            "exercise": "Peso Muerto Rumano",
+            "sets": "4",
+            "reps": "8-10",
+            "rest": "2-3 min",
+            "notes": "Enfoque isquiotibiales, barra cerca del cuerpo. Desarrollo cadena posterior"
+          },
+          {
+            "exercise": "Prensa de Piernas",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "2 min",
+            "notes": "Rango completo, pies posición media. Volumen adicional cuádriceps"
+          },
+          {
+            "exercise": "Curl de Isquiotibiales",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "90 seg",
+            "notes": "Control excéntrico, contracción máxima. Aislamiento isquiotibiales"
+          },
+          {
+            "exercise": "Extensiones de Cuádriceps",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "90 seg",
+            "notes": "Rango completo, contracción pico. Finalizar cuádriceps"
+          },
+          {
+            "exercise": "Hip Thrust",
+            "sets": "3",
+            "reps": "15-20",
+            "rest": "90 seg",
+            "notes": "Pausa en contracción, desarrollo glúteos. Importante para fuerza"
+          },
+          {
+            "exercise": "Elevaciones de Gemelos de Pie",
+            "sets": "4",
+            "reps": "15-20",
+            "rest": "60 seg",
+            "notes": "Pausa arriba, estiramiento completo abajo. Desarrollo gemelos"
+          },
+          {
+            "exercise": "Elevaciones de Gemelos Sentado",
+            "sets": "3",
+            "reps": "20-25",
+            "rest": "45 seg",
+            "notes": "Target sóleo, rango completo. Desarrollo completo pantorrillas"
+          }
+        ]
+      },
+      {
+        "name": "Día 4 - Push (Pectoral, Deltoides, Tríceps) - Variación",
+        "type": "Empuje - Segunda sesión semanal",
+        "target": "Volumen adicional con ejercicios variados",
+        "duration": "60-75 min",
+        "exercises": [
+          {
+            "exercise": "Press Inclinado con Barra",
+            "sets": "4",
+            "reps": "8-10",
+            "rest": "3 min",
+            "notes": "Variación del press plano, enfoque pectoral superior"
+          },
+          {
+            "exercise": "Press con Mancuernas",
+            "sets": "4",
+            "reps": "10-12",
+            "rest": "2-3 min",
+            "notes": "Mayor rango de movimiento, estabilización"
+          },
+          {
+            "exercise": "Press Arnold",
+            "sets": "3",
+            "reps": "10-12",
+            "rest": "2 min",
+            "notes": "Movimiento completo deltoides, rotación controlada"
+          },
+          {
+            "exercise": "Aperturas con Mancuernas",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "90 seg",
+            "notes": "Estiramiento máximo pectoral, control excéntrico"
+          },
+          {
+            "exercise": "Elevaciones Frontales",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "60 seg",
+            "notes": "Aislamiento deltoides anterior, sin balanceo"
+          },
+          {
+            "exercise": "Press Cerrado",
+            "sets": "3",
+            "reps": "10-12",
+            "rest": "90 seg",
+            "notes": "Enfoque tríceps, codos cerca del cuerpo"
+          },
+          {
+            "exercise": "Patadas de Tríceps",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "60 seg",
+            "notes": "Aislamiento puro tríceps, extensión completa"
+          }
+        ]
+      },
+      {
+        "name": "Día 5 - Pull (Espalda, Bíceps) - Variación",
+        "type": "Tirón - Segunda sesión semanal",
+        "target": "Volumen adicional con ángulos diferentes",
+        "duration": "60-75 min",
+        "exercises": [
+          {
+            "exercise": "Dominadas Agarre Supino",
+            "sets": "4",
+            "reps": "8-12",
+            "rest": "2-3 min",
+            "notes": "Variación para bíceps y dorsal inferior"
+          },
+          {
+            "exercise": "Remo en T",
+            "sets": "4",
+            "reps": "8-10",
+            "rest": "2-3 min",
+            "notes": "Grosor espalda media, agarre neutro"
+          },
+          {
+            "exercise": "Jalones al Pecho Agarre Ancho",
+            "sets": "4",
+            "reps": "10-12",
+            "rest": "2 min",
+            "notes": "Amplitud dorsal, enfoque en anchura"
+          },
+          {
+            "exercise": "Remo Cable Sentado",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "90 seg",
+            "notes": "Contracción máxima, variedad de agarres"
+          },
+          {
+            "exercise": "Encogimientos con Mancuernas",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "60 seg",
+            "notes": "Desarrollo trapecios, elevación pura"
+          },
+          {
+            "exercise": "Curl de Bíceps con Mancuernas",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "90 seg",
+            "notes": "Trabajo unilateral, supinación completa"
+          },
+          {
+            "exercise": "Curl en Polea",
+            "sets": "3",
+            "reps": "15-20",
+            "rest": "60 seg",
+            "notes": "Tensión constante, finalizar bíceps"
+          }
+        ]
+      },
+      {
+        "name": "Día 6 - Legs (Cuádriceps, Isquiotibiales, Glúteos) - Variación",
+        "type": "Piernas - Segunda sesión semanal",
+        "target": "Volumen adicional con ejercicios variados",
+        "duration": "60-75 min",
+        "exercises": [
+          {
+            "exercise": "Sentadilla Frontal",
+            "sets": "4",
+            "reps": "8-10",
+            "rest": "3 min",
+            "notes": "Variación para cuádriceps, mayor activación core"
+          },
+          {
+            "exercise": "Peso Muerto Sumo",
+            "sets": "4",
+            "reps": "8-10",
+            "rest": "3 min",
+            "notes": "Variación que enfatiza glúteos e interior muslos"
+          },
+          {
+            "exercise": "Hack Squat",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "2 min",
+            "notes": "Aislamiento cuádriceps, posición fija"
+          },
+          {
+            "exercise": "Peso Muerto a Pierna Rígida",
+            "sets": "3",
+            "reps": "12-15",
+            "rest": "90 seg",
+            "notes": "Estiramiento máximo isquiotibiales"
+          },
+          {
+            "exercise": "Sentadilla Búlgara",
+            "sets": "3x pierna",
+            "reps": "12-15",
+            "rest": "60 seg",
+            "notes": "Trabajo unilateral, equilibrio y fuerza"
+          },
+          {
+            "exercise": "Puentes de Glúteo",
+            "sets": "3",
+            "reps": "20-25",
+            "rest": "60 seg",
+            "notes": "Activación pura glúteos, contracción sostenida"
+          },
+          {
+            "exercise": "Caminata de Gemelos",
+            "sets": "3",
+            "reps": "20 pasos",
+            "rest": "45 seg",
+            "notes": "Gemelos bajo carga, equilibrio dinámico"
+          }
+        ]
+      }
+    ],
+    "progression_guidelines": {
+      "compound_movements": "Aumentar 2.5-5kg semanalmente en ejercicios principales",
+      "isolation_exercises": "Progresar en reps primero (hasta límite superior), luego peso",
+      "rep_ranges": "6-8 fuerza, 8-12 hipertrofia, 12-15+ resistencia muscular",
+      "progression_order": "Peso → Reps → Series → Técnicas avanzadas"
+    },
+    "advanced_techniques": {
+      "drop_sets": "Reducir peso 20-30% y continuar hasta fallo en último set",
+      "rest_pause": "Pausar 10-15s en fallo y continuar por más reps",
+      "supersets": "Combinar 2 ejercicios sin descanso (ej: press + elevaciones)",
+      "tempo_training": "Controlar velocidad: 3 seg bajada, 1 seg pausa, explosivo subida"
+    },
+    "nutrition_requirements": {
+      "caloric_surplus": "+300-500 calorías para ganancia muscular",
+      "protein": "2.2-2.8g por kg peso corporal",
+      "carbohydrates": "5-7g por kg para energía entrenamientos",
+      "fats": "1.0-1.5g por kg para función hormonal",
+      "meal_timing": "Comida pre-entreno 2h antes, post-entreno dentro de 2h"
+    },
+    "recovery_protocols": {
+      "sleep": "8-9 horas para óptima recuperación muscular",
+      "rest_between_sessions": "Mínimo 24h entre grupos musculares",
+      "active_recovery": "Caminata ligera, estiramientos en día libre",
+      "stress_management": "Técnicas relajación, evitar sobreentrenamiento"
+    },
+    "periodization_options": {
+      "linear": "Aumentar peso/intensidad progresivamente",
+      "undulating": "Variar reps/intensidad cada sesión",
+      "block": "4-6 semanas misma fase, luego cambiar enfoque",
+      "deload": "Cada 6-8 semanas reducir volumen/intensidad 40-50%"
+    },
+    "exercise_substitutions": {
+      "press_banca": "Press con mancuernas, press inclinado",
+      "dominadas": "Jalones al pecho, remo invertido",
+      "sentadilla": "Hack squat, prensa piernas, sentadilla frontal",
+      "peso_muerto": "Trap bar deadlift, sumo deadlift"
+    },
+    "common_mistakes": [
+      "Entrenar mismo grupo muscular días consecutivos",
+      "No progresar en cargas/reps consistentemente",
+      "Descuidar calentamiento en sesiones intensas",
+      "No ajustar volumen según capacidad recuperación",
+      "Cambiar ejercicios principales frecuentemente"
+    ],
+    "success_indicators": [
+      "Aumento consistente en cargas de trabajo",
+      "Mejora visible en desarrollo muscular",
+      "Capacidad completar 6 entrenamientos semanales",
+      "Recuperación adecuada entre sesiones",
+      "Progresión sostenida por 12+ semanas"
+    ],
+    "equipment_needed": [
+      "Barra olímpica y discos variados",
+      "Mancuernas conjunto completo",
+      "Banco ajustable (plano/inclinado)",
+      "Rack sentadillas con safety bars",
+      "Sistema poleas (alto y bajo)",
+      "Prensa de piernas",
+      "Máquinas curl/extensión"
+    ],
+    "transition_guidelines": {
+      "prerequisites": "6+ meses entrenamiento consistente, técnica sólida",
+      "from_full_body": "Adaptar gradualmente al mayor volumen",
+      "to_advanced": "Especialización o competencia después 12+ meses",
+      "modifications": "Ajustar frecuencia según disponibilidad (PPL 2x vs 1x)"
+    },
+    "important_notes": [
+      "⚠️ Requiere capacidad entrenar 6 días/semana consistentemente",
+      "📈 Enfoque principal: hipertrofia y desarrollo muscular",
+      "🍽️ Necesita nutrición adecuada para sostener volumen",
+      "💤 Recuperación crítica - priorizar sueño y manejo estrés",
+      "📊 Monitorear progreso semanalmente en ejercicios principales",
+      "🔄 Permitir adaptación 2-3 semanas antes de modificar"
+    ]
+  }

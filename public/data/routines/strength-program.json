@@ -1,0 +1,432 @@
+{
+  "id": "strength-program",
+  "name": "Programa de Fuerza 5/3/1",
+  "level": "Intermedio-Avanzado",
+  "duration": "16+ semanas (ciclos de 4 semanas)",
+  "frequency": "4 días/semana",
+  "time_per_session": "60-90 minutos",
+  "goal": "Maximizar fuerza en movimientos básicos: sentadilla, press banca, peso muerto, press militar",
+  "description": "Programa basado en el sistema 5/3/1 de Jim Wendler con periodización no-linear. Enfoque en progresión sostenible a largo plazo usando 90% del 1RM como Training Max. Ideal para desarrollo de fuerza pura.",
+  "key_benefits": [
+    "Progresión matemática clara y sostenible",
+    "Desarrollo de fuerza máxima comprobado",
+    "Flexibilidad en ejercicios de asistencia",
+    "Sistema probado por años de uso",
+    "Previene burnout con Training Max conservador",
+    "Aplicable tanto recreativo como competitivo"
+  ],
+  "program_structure": {
+    "core_lifts": {
+      "squat": "Sentadilla Trasera - Rey de ejercicios",
+      "bench": "Press Banca - Fuerza tren superior",
+      "deadlift": "Peso Muerto - Potencia total",
+      "press": "Press Militar - Fuerza funcional"
+    },
+    "training_max_concept": "90% de tu 1RM actual para permitir progresión consistente",
+    "cycle_structure": {
+      "week_1": "3x5 @ 65%, 75%, 85% TM",
+      "week_2": "3x3 @ 70%, 80%, 90% TM", 
+      "week_3": "5/3/1 @ 75%, 85%, 95%+ TM",
+      "week_4": "Deload @ 40%, 50%, 60% TM"
+    }
+  },
+  "workouts": [
+    {
+      "name": "Día 1 - Sentadilla + Press Militar",
+      "type": "Squat/Press Day",
+      "target": "Fuerza en sentadilla y press militar",
+      "duration": "60-90 min",
+      "exercises": [
+        {
+          "exercise": "Sentadilla Trasera - Trabajo Principal",
+          "sets": "3",
+          "reps": "Semana 1: 5/5/5+, Semana 2: 3/3/3+, Semana 3: 5/3/1+, Semana 4: 5/5/5 (deload)",
+          "rest": "3-5 min entre series principales",
+          "notes": "65%-75%-85% TM (S1), 70%-80%-90% TM (S2), 75%-85%-95% TM (S3), 40%-50%-60% TM (S4). + = AMRAP"
+        },
+        {
+          "exercise": "Press Militar - Trabajo Principal", 
+          "sets": "3",
+          "reps": "Misma estructura que sentadilla",
+          "rest": "3-5 min entre series principales",
+          "notes": "Usar Training Max específico de Press Militar. Mismo patrón de % que sentadilla"
+        },
+        {
+          "exercise": "Sentadilla - Boring But Big",
+          "sets": "5",
+          "reps": "10",
+          "rest": "90-120 seg",
+          "notes": "50% TM Sentadilla (Semanas 1-2), 60% TM (Semanas 3-4). Volumen para hipertrofia"
+        },
+        {
+          "exercise": "Press Militar - BBB",
+          "sets": "5", 
+          "reps": "10",
+          "rest": "90 seg",
+          "notes": "50% TM Press Militar. Completar volumen accesorio"
+        },
+        {
+          "exercise": "Trabajo Accesorio - PUSH",
+          "sets": "2-4",
+          "reps": "50-100 reps totales",
+          "rest": "60-90 seg",
+          "notes": "Dips, press inclinado, extensiones tríceps. Elegir 1-2 ejercicios"
+        },
+        {
+          "exercise": "Trabajo Accesorio - PULL",
+          "sets": "2-4",
+          "reps": "50-100 reps totales", 
+          "rest": "60-90 seg",
+          "notes": "Dominadas, remos, face pulls. Equilibrar trabajo de empuje"
+        },
+        {
+          "exercise": "Trabajo Accesorio - SINGLE LEG/CORE",
+          "sets": "2-3",
+          "reps": "50-100 reps totales",
+          "rest": "60 seg",
+          "notes": "Lunges, step-ups, plancha, abs. Estabilidad y prevención lesiones"
+        }
+      ]
+    },
+    {
+      "name": "Día 2 - Press Banca + Peso Muerto",
+      "type": "Bench/Deadlift Day",
+      "target": "Fuerza en press banca y peso muerto",
+      "duration": "60-90 min",
+      "exercises": [
+        {
+          "exercise": "Press Banca - Trabajo Principal",
+          "sets": "3",
+          "reps": "Semana 1: 5/5/5+, Semana 2: 3/3/3+, Semana 3: 5/3/1+, Semana 4: 5/5/5 (deload)",
+          "rest": "3-5 min entre series principales",
+          "notes": "Técnica perfecta, usar spotter. Mismos % que sentadilla pero basado en TM de Press Banca"
+        },
+        {
+          "exercise": "Peso Muerto - Trabajo Principal",
+          "sets": "3", 
+          "reps": "Misma estructura que press banca",
+          "rest": "3-5 min entre series principales",
+          "notes": "Solo 1 set principal por sesión. Ejercicio más demandante neuralmente"
+        },
+        {
+          "exercise": "Press Banca - Boring But Big",
+          "sets": "5",
+          "reps": "10",
+          "rest": "90-120 seg",
+          "notes": "50-60% TM Press Banca. Volumen adicional para masa muscular"
+        },
+        {
+          "exercise": "Peso Muerto - BBB Modificado",
+          "sets": "5",
+          "reps": "5",
+          "rest": "2 min",
+          "notes": "65% TM Peso Muerto. Menor volumen que otros ejercicios por demanda neural"
+        },
+        {
+          "exercise": "Trabajo Accesorio - PUSH",
+          "sets": "2-4",
+          "reps": "50-100 reps totales",
+          "rest": "60-90 seg",
+          "notes": "Press inclinado, fondos, press militar DB. Completar desarrollo empuje"
+        },
+        {
+          "exercise": "Trabajo Accesorio - PULL",
+          "sets": "2-4",
+          "reps": "50-100 reps totales",
+          "rest": "60-90 seg",
+          "notes": "Remos, dominadas, jalones. Fundamental para equilibrio muscular"
+        },
+        {
+          "exercise": "Trabajo Accesorio - SINGLE LEG/CORE",
+          "sets": "2-3",
+          "reps": "50-100 reps totales",
+          "rest": "60 seg",
+          "notes": "Sentadilla búlgara, peso muerto unipodal, core work"
+        }
+      ]
+    },
+    {
+      "name": "Día 3 - Sentadilla + Press Militar (Semana +1)",
+      "type": "Squat/Press Day (Cycle Week +1)",
+      "target": "Repetición con diferente % según ciclo",
+      "duration": "60-90 min",
+      "exercises": [
+        {
+          "exercise": "Sentadilla Trasera - Trabajo Principal",
+          "sets": "3",
+          "reps": "Si Día 1 fue Semana 1, este es Semana 2, etc.",
+          "rest": "3-5 min",
+          "notes": "Misma estructura pero diferente semana del ciclo de 4 semanas. Rotar automáticamente"
+        },
+        {
+          "exercise": "Press Militar - Trabajo Principal",
+          "sets": "3", 
+          "reps": "Sigue patrón cíclico",
+          "rest": "3-5 min",
+          "notes": "Segundo ejercicio principal con % correspondiente"
+        },
+        {
+          "exercise": "First Set Last - Sentadilla",
+          "sets": "3-5",
+          "reps": "Mismo peso y reps del primer set principal",
+          "rest": "90-120 seg",
+          "notes": "Alternativa a BBB. Menos fatiga, volumen moderado"
+        },
+        {
+          "exercise": "First Set Last - Press Militar",
+          "sets": "3-5",
+          "reps": "Mismo peso y reps del primer set principal",
+          "rest": "90 seg",
+          "notes": "Completar volumen con template FSL"
+        },
+        {
+          "exercise": "Trabajo Accesorio - PUSH",
+          "sets": "3-4",
+          "reps": "75-100 reps totales",
+          "rest": "60-90 seg",
+          "notes": "Variar ejercicios respecto a Día 1. Press inclinado, fondos"
+        },
+        {
+          "exercise": "Trabajo Accesorio - PULL",
+          "sets": "3-4",
+          "reps": "75-100 reps totales",
+          "rest": "60-90 seg",
+          "notes": "Face pulls, remo cable, chin-ups"
+        },
+        {
+          "exercise": "Trabajo Accesorio - SINGLE LEG/CORE",
+          "sets": "3",
+          "reps": "75-100 reps totales",
+          "rest": "60 seg",
+          "notes": "Variaciones diferentes al Día 1"
+        }
+      ]
+    },
+    {
+      "name": "Día 4 - Press Banca + Peso Muerto (Semana +1)",
+      "type": "Bench/Deadlift Day (Cycle Week +1)",
+      "target": "Completar patrón cíclico",
+      "duration": "60-90 min",
+      "exercises": [
+        {
+          "exercise": "Press Banca - Trabajo Principal",
+          "sets": "3",
+          "reps": "Completa el patrón cíclico",
+          "rest": "3-5 min",
+          "notes": "Trabajo principal siguiendo % correspondiente del ciclo"
+        },
+        {
+          "exercise": "Peso Muerto - Trabajo Principal",
+          "sets": "3",
+          "reps": "Sigue estructura cíclica",
+          "rest": "3-5 min",
+          "notes": "Completar trabajo principal de peso muerto"
+        },
+        {
+          "exercise": "Press Banca - First Set Last",
+          "sets": "3-5",
+          "reps": "Peso y reps del primer set",
+          "rest": "90-120 seg",
+          "notes": "Template FSL para variar del BBB del Día 2"
+        },
+        {
+          "exercise": "Peso Muerto - Volumen Ligero",
+          "sets": "3-5",
+          "reps": "8-10",
+          "rest": "2 min",
+          "notes": "50-60% TM. Trabajo técnico y volumen controlado"
+        },
+        {
+          "exercise": "Trabajo Accesorio - PUSH",
+          "sets": "3-4",
+          "reps": "75-100 reps totales",
+          "rest": "60-90 seg",
+          "notes": "Press militar DB, extensiones tríceps, press cerrado"
+        },
+        {
+          "exercise": "Trabajo Accesorio - PULL",
+          "sets": "3-4",
+          "reps": "75-100 reps totales",
+          "rest": "60-90 seg",
+          "notes": "Remo mancuerna, dominadas, curl bíceps"
+        },
+        {
+          "exercise": "Trabajo Accesorio - SINGLE LEG/CORE",
+          "sets": "3",
+          "reps": "75-100 reps totales",
+          "rest": "60 seg",
+          "notes": "Plancha, Russian twists, caminata lateral"
+        }
+      ]
+    }
+  ],
+  "training_max_calculation": {
+    "step_1": "Determinar 1RM actual en cada ejercicio principal",
+    "step_2": "Multiplicar por 0.90 para obtener Training Max (TM)",
+    "step_3": "Todos los % se basan en este TM, no en 1RM real",
+    "step_4": "Aumentar TM cada ciclo: +2.5kg sentadilla/peso muerto, +1.25kg press",
+    "example": "1RM 100kg → TM 90kg → Semana 3 top set: 85.5kg (95% de 90kg)"
+  },
+  "assistance_templates": {
+    "boring_but_big": {
+      "description": "5x10 @ 50-60% TM del ejercicio principal",
+      "purpose": "Volumen, hipertrofia, práctica técnica",
+      "progression": "Semanas 1-2: 50%, Semanas 3-4: 60%"
+    },
+    "first_set_last": {
+      "description": "Repetir primer set del día por 3-5 series adicionales",
+      "purpose": "Volumen moderado, menos fatiga que BBB",
+      "example": "Si primer set fue 5@65%, hacer 3-5x5@65%"
+    },
+    "joker_sets": {
+      "description": "Sets adicionales por encima del 100% TM",
+      "when_to_use": "Solo cuando te sientes excepcional",
+      "caution": "Usar con moderación para evitar burnout"
+    }
+  },
+    "accessory_guidelines": {
+    "philosophy": "50-100 reps en cada una de 3 categorías",
+    "push_category": "Dips, press inclinado, press militar DB, extensiones tríceps",
+    "pull_category": "Dominadas, remos, face pulls, curl bíceps",
+    "single_leg_core_category": "Lunges, step-ups, sentadilla búlgara, plancha, abs",
+    "execution": "2-4 ejercicios, 2-4 series cada uno hasta completar reps objetivo"
+  },
+  "progression_tracking": {
+    "amrap_goals": {
+      "week_1_85%": "Objetivo: 3-5 reps adicionales",
+      "week_2_90%": "Objetivo: 1-3 reps adicionales",
+      "week_3_95%": "Objetivo: 1-2 reps adicionales"
+    },
+    "when_to_increase_tm": "Aumentar TM cada ciclo según protocolo estándar",
+    "struggling_protocol": "Si no logras reps mínimas, mantener TM actual",
+    "reset_protocol": "Si fallas 2 ciclos seguidos, reducir TM 10%"
+  },
+  "nutrition_for_strength": {
+    "caloric_intake": "Ligero superávit o mantenimiento para apoyar fuerza",
+    "protein": "2.0-2.5g por kg peso corporal",
+    "carbohydrates": "4-6g por kg para energía en entrenamientos pesados",
+    "fats": "1.0-1.5g por kg para función hormonal óptima",
+    "pre_workout": "Comida 2-3 horas antes, evitar entrenar en ayunas",
+    "post_workout": "Proteína + carbohidratos dentro de 2 horas"
+  },
+  "supplementation_stack": {
+    "creatine": "3-5g diarios para fuerza y potencia",
+    "caffeine": "200-400mg pre-entreno para focus y energía",
+    "vitamin_d": "Si hay deficiencia, importante para fuerza",
+    "basics": "Multivitamínico, omega-3, magnesio para recuperación"
+  },
+  "recovery_protocols": {
+    "sleep": "7-9 horas para recuperación neural óptima",
+    "stress_management": "Estrés crónico reduce fuerza significativamente",
+    "active_recovery": "10-20 min caminata en días libres",
+    "complete_rest": "Al menos 1 día completo por semana"
+  },
+  "advanced_variations": {
+    "leader_anchor": "2 ciclos Leader (volumen) + 1 ciclo Anchor (intensidad)",
+    "specialization": "Aumentar frecuencia en ejercicio débil",
+    "competition_prep": "Protocolos específicos para meet de powerlifting"
+  },
+  "exercise_technique": {
+    "squat_cues": [
+      "Barra posición alta trapecio, agarre equilibrado",
+      "Descenso controlado hasta cadera bajo rodillas",
+      "Empujar suelo con talones, rodillas alineadas",
+      "Respiración: inhalar arriba, mantener durante rep"
+    ],
+    "bench_cues": [
+      "Escápulas retraídas, arco natural espalda",
+      "Agarre 1.5x ancho hombros, barra toca pecho",
+      "Empuje explosivo línea recta, mantener tensión",
+      "SIEMPRE usar spotter o safety bars"
+    ],
+    "deadlift_cues": [
+      "Barra sobre medio pie, agarre mixto o double overhand",
+      "Empujar suelo con pies, barra cerca del cuerpo",
+      "Extensión simultánea cadera y rodillas",
+      "Lockout completo, no hacer touch-and-go en sets pesados"
+    ],
+    "press_cues": [
+      "Pies escalonados, core muy activado",
+      "Empuje vertical línea recta, cabeza se mueve atrás",
+      "Lockout completo sobre cabeza",
+      "No arquear excesivamente espalda baja"
+    ]
+  },
+  "troubleshooting": {
+    "stalled_progress": [
+      "Verificar Training Max no sea muy alto",
+      "Mejorar recuperación (sueño, nutrición, estrés)",
+      "Cambiar ejercicios de asistencia",
+      "Tomar semana extra de deload"
+    ],
+    "technique_breakdown": [
+      "Reducir Training Max 10-15%",
+      "Más volumen en rangos submáximos",
+      "Trabajo con coach para análisis técnico",
+      "Ejercicios correctivos específicos"
+    ],
+    "motivation_loss": [
+      "Establecer metas a corto plazo",
+      "Competir en evento local",
+      "Cambiar template de asistencia",
+      "Entrenar con compañeros fuertes"
+    ]
+  },
+  "equipment_requirements": {
+    "essential": [
+      "Barra olímpica (20kg hombres, 15kg mujeres)",
+      "Discos calibrados o de hierro", 
+      "Rack sentadillas con safety bars",
+      "Banco de press ajustable",
+      "Plataforma peso muerto"
+    ],
+    "recommended": [
+      "Cinturón de powerlifting",
+      "Rodilleras (si compites)",
+      "Muñequeras para press",
+      "Zapatillas suela plana",
+      "Magnesio o straps"
+    ]
+  },
+  "program_variations": {
+    "beginner_531": "Usar 85% del Training Max, progresión más conservadora",
+    "advanced_531": "Joker sets, periodización leader/anchor, especialización",
+    "time_constrained": "Reducir trabajo accesorio, superset no-competitivos",
+    "competition_focused": "Integración con meet prep, práctica comandos"
+  },
+  "success_metrics": {
+    "short_term": [
+      "Completar reps mínimas consistentemente",
+      "Mejorar técnica bajo fatiga",
+      "Aumentar AMRAP reps gradualmente"
+    ],
+    "medium_term": [
+      "Aumentar Training Max cada ciclo",
+      "PRs en sets AMRAP",
+      "Mejor recuperación entre sesiones"
+    ],
+    "long_term": [
+      "Nuevos 1RM personales",
+      "Competir exitosamente si es objetivo",
+      "Años de progresión sostenida"
+    ]
+  },
+  "transition_guidelines": {
+    "prerequisites": [
+      "6+ meses entrenamiento consistente",
+      "Técnica sólida en los 4 ejercicios principales",
+      "Capacidad entrenar 4 días/semana",
+      "Comprensión porcentajes y progresión"
+    ],
+    "from_bodybuilding": "Reducir volumen inicial, enfocar movimientos compuestos",
+    "to_competition": "Mínimo 12-18 meses de 5/3/1 antes de primer meet"
+  },
+  "important_notes": [
+    "⚠️ Requiere experiencia sólida en ejercicios principales",
+    "🎯 Enfoque: fuerza máxima a largo plazo",
+    "📊 Progresión conservadora pero sostenible por años",
+    "🏋️ Ideal para powerlifting o fuerza general",
+    "📈 Training Max es clave - no usar 1RM real",
+    "⏱️ Paciencia - resultados vienen con consistencia"
+  ]
+}

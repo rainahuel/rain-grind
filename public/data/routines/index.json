@@ -1,0 +1,175 @@
+{
+  "catalog": {
+    "title": "Catálogo de Rutinas Rain & Grind",
+    "description": "Rutinas de entrenamiento basadas en evidencia científica",
+    "last_updated": "2025-01-01",
+    "total_routines": 5
+  },
+  "categories": {
+    "beginner": {
+      "name": "Principiante",
+      "description": "Para personas nuevas en el entrenamiento con pesas",
+      "color": "green"
+    },
+    "intermediate": {
+      "name": "Intermedio", 
+      "description": "Para personas con 6+ meses de experiencia consistente",
+      "color": "orange"
+    },
+    "strength": {
+      "name": "Fuerza",
+      "description": "Enfocado en ganar fuerza máxima",
+      "color": "red"
+    },
+    "muscle": {
+      "name": "Músculo",
+      "description": "Enfocado en hipertrofia y desarrollo muscular",
+      "color": "blue"
+    },
+    "fat_loss": {
+      "name": "Definición",
+      "description": "Combinación de entrenamiento y estrategias para pérdida de grasa",
+      "color": "purple"
+    }
+  },
+  "routines": [
+    {
+      "id": "full-body-beginner",
+      "name": "Full Body Principiante",
+      "category": "beginner",
+      "goal": "Introducción al entrenamiento con pesas, aprendizaje de técnica básica",
+      "level": "Principiante",
+      "duration": "8-12 semanas",
+      "frequency": "3 días/semana",
+      "time_per_session": "45-60 minutos",
+      "equipment": "Barra olímpica, mancuernas, banco, rack con safety bars",
+      "description": "Rutina completa para principiantes basada en movimientos fundamentales. Incluye progresión semanal y técnica detallada. Perfecto para quienes nunca han entrenado con pesas o regresan después de mucho tiempo.",
+      "file": "full-body-beginner.json",
+      "download_url": "/downloads/full-body-beginner.json",
+      "scientific_basis": [
+        "ACSM Position Stand on Resistance Training (2009)",
+        "NSCA Essentials of Strength Training 4th Edition",
+        "Kraemer & Ratamess - Progression Models (2004)"
+      ],
+      "key_benefits": [
+        "Aprendizaje de técnica básica en ejercicios fundamentales",
+        "Desarrollo de fuerza base y adaptaciones neurales",
+        "Preparación sólida para rutinas intermedias",
+        "Mejora coordinación y estabilidad",
+        "Establecimiento de hábitos de entrenamiento",
+        "Progresión clara y motivante"
+      ]
+    },
+    {
+      "id": "push-pull-legs",
+      "name": "Push/Pull/Legs",
+      "category": "muscle",
+      "goal": "Desarrollo muscular equilibrado mediante división por función muscular",
+      "level": "Intermedio",
+      "duration": "12-16 semanas",
+      "frequency": "6 días/semana (3x PPL)",
+      "time_per_session": "60-75 minutos",
+      "equipment": "Gimnasio completo con barras, mancuernas, máquinas, poleas",
+      "description": "División clásica que separa músculos por función: empuje, tirón y piernas. Permite mayor volumen y frecuencia de entrenamiento para maximizar hipertrofia. Ideal para intermedios que buscan desarrollo muscular.",
+      "file": "push-pull-legs.json",
+      "download_url": "/downloads/push-pull-legs.json",
+      "scientific_basis": [
+        "Schoenfeld et al. - Volume and Muscle Growth",
+        "Helms et al. - Muscle Hypertrophy Guide",
+        "ACSM Position Stand - Resistance Training"
+      ],
+      "key_benefits": [
+        "Alto volumen de entrenamiento por grupo muscular",
+        "Recuperación óptima por función muscular",
+        "Flexibilidad en programación de días",
+        "Progresión sostenible y específica",
+        "Mayor frecuencia de entrenamiento (2x/semana)",
+        "Especialización en desarrollo muscular"
+      ]
+    },
+    {
+      "id": "upper-lower",
+      "name": "Upper/Lower Split",
+      "category": "intermediate",
+      "goal": "Equilibrio óptimo entre volumen, intensidad y recuperación",
+      "level": "Intermedio",
+      "duration": "10-14 semanas",
+      "frequency": "4 días/semana",
+      "time_per_session": "60-90 minutos",
+      "equipment": "Gimnasio completo con barras, mancuernas, máquinas",
+      "description": "División anatómica simple que permite alta intensidad con recuperación adecuada. Ideal para intermedios que buscan balance entre fuerza e hipertrofia. 14-18 series por grupo muscular por semana.",
+      "file": "upper-lower.json",
+      "download_url": "/downloads/upper-lower.json",
+      "scientific_basis": [
+        "Kraemer & Ratamess - Program Design Variables (2004)",
+        "Helms et al. - Training Volume Landmarks for Muscle Growth",
+        "Schoenfeld - Frequency and Muscle Hypertrophy (2016)",
+        "ACSM Position Stand - Resistance Training"
+      ],
+      "key_benefits": [
+        "Sesiones más intensas por menor número de grupos musculares",
+        "Mejor recuperación que full body de alta intensidad",
+        "Menos fatiga sistémica que rutinas de 6 días",
+        "Sostenible a largo plazo y flexible",
+        "Frecuencia 2x por semana por grupo muscular",
+        "Equilibrio perfecto volumen/intensidad"
+      ]
+    },
+    {
+      "id": "strength-program",
+      "name": "Programa de Fuerza 5/3/1",
+      "category": "strength",
+      "goal": "Maximizar fuerza en movimientos básicos: sentadilla, press banca, peso muerto, press militar",
+      "level": "Intermedio-Avanzado",
+      "duration": "16+ semanas (ciclos de 4 semanas)",
+      "frequency": "4 días/semana",
+      "time_per_session": "60-90 minutos",
+      "equipment": "Barra olímpica, discos, rack, banco, plataforma peso muerto",
+      "description": "Programa basado en el sistema 5/3/1 de Jim Wendler con periodización no-linear. Enfoque en progresión sostenible a largo plazo usando 90% del 1RM como Training Max. Ideal para desarrollo de fuerza pura.",
+      "file": "strength-program.json",
+      "download_url": "/downloads/strength-program.json",
+      "scientific_basis": [
+        "Jim Wendler - 5/3/1: The Simplest and Most Effective Training System",
+        "Prilepin's Chart - Optimal Training Zones",
+        "Zatsiorsky & Kraemer - Periodization Theory",
+        "NSCA - Program Design for Strength Development"
+      ],
+      "key_benefits": [
+        "Progresión matemática clara y sostenible",
+        "Desarrollo de fuerza máxima comprobado",
+        "Flexibilidad en ejercicios de asistencia",
+        "Sistema probado por años de uso",
+        "Previene burnout con Training Max conservador",
+        "Aplicable tanto recreativo como competitivo"
+      ]
+    },
+    {
+      "id": "fat-loss-program",
+      "name": "Programa de Definición y Pérdida de Grasa",
+      "category": "fat_loss",
+      "goal": "Pérdida de grasa maximizando preservación de masa muscular",
+      "level": "Intermedio-Avanzado",
+      "duration": "12-20 semanas",
+      "frequency": "5-6 días/semana",
+      "time_per_session": "45-75 minutos",
+      "equipment": "Gimnasio completo + equipos de cardio",
+      "description": "Programa científicamente diseñado que combina entrenamiento de resistencia con cardio estratégico en déficit calórico. Enfoque en preservar músculo mientras quemas grasa de forma eficiente.",
+      "file": "fat-loss-program.json",
+      "download_url": "/downloads/fat-loss-program.json",
+      "scientific_basis": [
+        "Helms et al. - Evidence-Based Recommendations for Natural Bodybuilding Contest Preparation",
+        "Garthe et al. - Higher Protein Intake Preserves Lean Mass in Parallel",
+        "Trexler et al. - Metabolic Adaptation to Weight Loss",
+        "ACSM Position Stand - Weight Loss and Weight Maintenance"
+      ],
+      "key_benefits": [
+        "Pérdida de grasa sostenible (0.5-1% peso/semana)",
+        "Preservación máxima de masa muscular",
+        "Protocolo basado en evidencia científica",
+        "Fases progresivas con periodización",
+        "Incluye protocolos nutricionales completos",
+        "Estrategias anti-plateau y reverse diet"
+      ]
+    }
+  ]
+}

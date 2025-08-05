@@ -1,0 +1,221 @@
+{
+  "id": "full-body-beginner",
+  "name": "Full Body Principiante",
+  "level": "Principiante",
+  "duration": "8-12 semanas",
+  "frequency": "3 días/semana",
+  "time_per_session": "45-60 minutos",
+  "goal": "Introducción al entrenamiento con pesas, aprendizaje de técnica básica",
+  "description": "Rutina completa para principiantes basada en movimientos fundamentales. Incluye progresión semanal y técnica detallada. Perfecto para quienes nunca han entrenado con pesas o regresan después de mucho tiempo.",
+  "key_benefits": [
+    "Aprendizaje de técnica básica en ejercicios fundamentales",
+    "Desarrollo de fuerza base y adaptaciones neurales",
+    "Preparación sólida para rutinas intermedias",
+    "Mejora coordinación y estabilidad",
+    "Establecimiento de hábitos de entrenamiento",
+    "Progresión clara y motivante"
+  ],
+  "program_structure": {
+    "phases": [
+      {
+        "name": "Fase 1: Adaptación Neural",
+        "weeks": "1-4",
+        "focus": "Aprendizaje de técnica, adaptación neural",
+        "sets": "2-3 series",
+        "reps": "10-12",
+        "rest": "60-90 segundos"
+      },
+      {
+        "name": "Fase 2: Incremento Progresivo",
+        "weeks": "5-8", 
+        "focus": "Incremento de volumen e intensidad",
+        "sets": "3-4 series",
+        "reps": "8-10",
+        "rest": "90-120 segundos"
+      },
+      {
+        "name": "Fase 3: Preparación Intermedia",
+        "weeks": "9-12",
+        "focus": "Preparación para rutinas intermedias",
+        "sets": "3-4 series",
+        "reps": "6-8 principales, 8-12 accesorios",
+        "rest": "2-3 min principales, 60-90s accesorios"
+      }
+    ],
+    "training_schedule": "Lunes, Miércoles, Viernes (mínimo 1 día descanso entre sesiones)"
+  },
+  "workouts": [
+    {
+      "name": "Día A - Enfoque Cuádriceps y Push",
+      "type": "Full Body - Patrón A",
+      "target": "Movimientos de empuje y cuádriceps dominante",
+      "duration": "45-60 min",
+      "exercises": [
+        {
+          "exercise": "Sentadilla con Barra",
+          "sets": "3-4",
+          "reps": "8-12",
+          "rest": "2-3 min",
+          "notes": "EJERCICIO PRINCIPAL - Pies ancho hombros, bajar hasta cadera bajo rodillas. Usar safety bars, empezar solo con barra (20kg)"
+        },
+        {
+          "exercise": "Press Banca con Barra", 
+          "sets": "3-4",
+          "reps": "8-12",
+          "rest": "2-3 min",
+          "notes": "SIEMPRE usar spotter. Agarre 1.5x ancho hombros, retraer escápulas, bajar hasta tocar pecho"
+        },
+        {
+          "exercise": "Remo con Barra",
+          "sets": "3",
+          "reps": "8-12",
+          "rest": "90-120 seg",
+          "notes": "Torso 45°, tirar hacia ombligo, apretar escápulas al final del movimiento"
+        },
+        {
+          "exercise": "Press Militar con Barra",
+          "sets": "3", 
+          "reps": "10-12",
+          "rest": "60-90 seg",
+          "notes": "Core activado, no arquear excesivamente. Empujar en línea recta sobre cabeza"
+        },
+        {
+          "exercise": "Plancha",
+          "sets": "3",
+          "reps": "30-60 seg",
+          "rest": "60 seg",
+          "notes": "Línea recta cabeza-talones, core contraído, glúteos activados"
+        }
+      ]
+    },
+    {
+      "name": "Día B - Enfoque Isquiotibiales y Pull",
+      "type": "Full Body - Patrón B",
+      "target": "Movimientos de tirón y cadena posterior",
+      "duration": "45-60 min", 
+      "exercises": [
+        {
+          "exercise": "Peso Muerto Convencional",
+          "sets": "3-4",
+          "reps": "5-8",
+          "rest": "3-4 min",
+          "notes": "EJERCICIO TÉCNICO - Aprender con peso ligero. Barra cerca de espinillas, empujar suelo con pies"
+        },
+        {
+          "exercise": "Dominadas Asistidas o Jalones",
+          "sets": "3-4", 
+          "reps": "6-10",
+          "rest": "2-3 min",
+          "notes": "Progresión hacia dominada completa. Agarre prono, iniciar con dorsales, control excéntrico"
+        },
+        {
+          "exercise": "Press Inclinado con Mancuernas",
+          "sets": "3",
+          "reps": "10-12",
+          "rest": "90 seg",
+          "notes": "Banco 30-45°, rango completo, mancuernas en línea con pecho"
+        },
+        {
+          "exercise": "Curl de Bíceps con Barra",
+          "sets": "3",
+          "reps": "10-12", 
+          "rest": "60 seg",
+          "notes": "Codos pegados, sin balanceo corporal, apretar bíceps en contracción"
+        },
+        {
+          "exercise": "Extensiones de Tríceps",
+          "sets": "3",
+          "reps": "10-12",
+          "rest": "60 seg",
+          "notes": "Codos estables, rango completo, mantener tensión constante"
+        }
+      ]
+    },
+    {
+      "name": "Día C - Full Body Balance",
+      "type": "Full Body - Patrón C",
+      "target": "Equilibrio muscular y variación de movimientos",
+      "duration": "45-60 min",
+      "exercises": [
+        {
+          "exercise": "Sentadilla Frontal o Goblet Squat",
+          "sets": "3",
+          "reps": "10-12", 
+          "rest": "2 min",
+          "notes": "Torso más vertical, core muy activado. Goblet squat con mancuerna al pecho para principiantes"
+        },
+        {
+          "exercise": "Press con Mancuernas",
+          "sets": "3",
+          "reps": "10-12",
+          "rest": "90 seg",
+          "notes": "Mayor rango de movimiento que barra, mancuernas se tocan al final"
+        },
+        {
+          "exercise": "Remo con Mancuerna a Una Mano",
+          "sets": "3x lado",
+          "reps": "10-12",
+          "rest": "60 seg entre lados",
+          "notes": "Apoyo en banco, tirar hacia cadera, apretar escápula, no rotar torso"
+        },
+        {
+          "exercise": "Elevaciones Laterales",
+          "sets": "3",
+          "reps": "12-15",
+          "rest": "60 seg",
+          "notes": "Ligera flexión codos, elevar hasta altura hombros, control en bajada"
+        },
+        {
+          "exercise": "Abdominales en Bicicleta", 
+          "sets": "3",
+          "reps": "20x lado",
+          "rest": "60 seg",
+          "notes": "Espalda pegada al suelo, movimiento controlado, no tirar del cuello"
+        }
+      ]
+    }
+  ],
+  "progression_guidelines": {
+    "weight_progression": "Aumentar 2.5-5kg en principales cuando completes todas las series con buena técnica",
+    "accessory_progression": "Aumentar 1.25-2.5kg o agregar 1-2 repeticiones", 
+    "stalling_protocol": "Si no progresas 2 semanas seguidas, reduce peso 10% y reconstruye",
+    "deload_frequency": "Cada 4-6 semanas reducir peso 40-50% manteniendo volumen"
+  },
+  "nutrition_guidelines": {
+    "caloric_intake": "Mantener o ligero superávit calórico para apoyar recuperación",
+    "protein": "1.6-2.2g por kg peso corporal",
+    "hydration": "Mínimo 2-3 litros agua por día",
+    "pre_workout": "Comida ligera 1-2 horas antes",
+    "post_workout": "Proteína + carbohidratos dentro de 2 horas"
+  },
+  "safety_protocols": [
+    "SIEMPRE calentar 5-10 minutos antes de entrenar",
+    "Aprender técnica correcta antes de aumentar peso",
+    "Usar safety bars en sentadilla y press banca", 
+    "Tener spotter cuando sea posible",
+    "Parar inmediatamente si sientes dolor",
+    "Enfriar con cardio ligero y estiramientos"
+  ],
+  "equipment_needed": [
+    "Barra olímpica (20kg)",
+    "Discos de peso variados",
+    "Rack de sentadillas con safety bars",
+    "Banco ajustable",
+    "Mancuernas variadas",
+    "Máquina de poleas (opcional)"
+  ],
+  "transition_indicators": [
+    "Técnica sólida en todos los ejercicios principales",
+    "Capaz de completar rutina sin fatiga excesiva",
+    "Progresión constante en pesos por 3+ meses",
+    "Deseo de mayor volumen/frecuencia de entrenamiento"
+  ],
+  "important_notes": [
+    "⚠️ Programa diseñado para principiantes absolutos",
+    "📚 Enfoque principal: aprender técnica correcta",
+    "⏱️ No apresurarse - la técnica es más importante que el peso",
+    "🎯 Objetivo: crear base sólida para futuro progreso",
+    "📈 Progresión conservadora para evitar lesiones",
+    "🧠 Desarrollar conexión mente-músculo desde el inicio"
+  ]
+}
